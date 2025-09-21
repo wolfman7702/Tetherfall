@@ -15,7 +15,7 @@ D:/Projects/Climbing Game/Tetherfall
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50048
+61346
 Successfully changed project path to: D:/Projects/Climbing Game/Tetherfall
 D:/Projects/Climbing Game/Tetherfall
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,18 +49,18 @@ D:/Projects/Climbing Game/Tetherfall
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9856]  Target information:
+Player connection [31860]  Target information:
 
-Player connection [9856]  * "[IP] 10.0.0.196 [Port] 0 [Flags] 2 [Guid] 1652950072 [EditorId] 1652950072 [Version] 1048832 [Id] WindowsEditor(7,JoshsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31860]  * "[IP] 10.0.0.196 [Port] 0 [Flags] 2 [Guid] 2741657883 [EditorId] 2741657883 [Version] 1048832 [Id] WindowsEditor(7,JoshsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9856]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1652950072 [EditorId] 1652950072 [Version] 1048832 [Id] WindowsEditor(7,JoshsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [31860]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2741657883 [EditorId] 2741657883 [Version] 1048832 [Id] WindowsEditor(7,JoshsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9856] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9856] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31860] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31860] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 729.23 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 2.96 ms.
+Refreshing native plugins compatible for Editor in 3243.52 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 4.53 ms.
 Initialize engine version: 2022.3.62f1 (4af31df58517)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Projects/Climbing Game/Tetherfall/Assets
@@ -75,44 +75,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006834 seconds.
-- Loaded All Assemblies, in  0.553 seconds
+Registered in 0.194061 seconds.
+- Loaded All Assemblies, in  8.162 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.221 seconds
-Domain Reload Profiling: 773ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 8435ms
+	BeginReloadAssembly (5705ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (370ms)
-		LoadAssemblies (93ms)
+	RebuildCommonClasses (432ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (264ms)
+	LoadAllAssembliesAndSetupDomain (1751ms)
+		LoadAssemblies (5703ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (368ms)
-			TypeCache.Refresh (367ms)
-				TypeCache.ScanAssembly (357ms)
+		AnalyzeDomain (1747ms)
+			TypeCache.Refresh (1747ms)
+				TypeCache.ScanAssembly (1266ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (221ms)
+	FinalizeReload (275ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (187ms)
+		SetupLoadedEditorAssemblies (224ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (126ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,51 +122,51 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.125 seconds
+- Loaded All Assemblies, in 10.850 seconds
 Native extension for WindowsStandalone target not found
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.593 seconds
-Domain Reload Profiling: 1711ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  1.229 seconds
+Domain Reload Profiling: 11948ms
+	BeginReloadAssembly (213ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (900ms)
-		LoadAssemblies (727ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (10385ms)
+		LoadAssemblies (10062ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (255ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (195ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (593ms)
+		AnalyzeDomain (445ms)
+			TypeCache.Refresh (400ms)
+				TypeCache.ScanAssembly (378ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1229ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (464ms)
+		SetupLoadedEditorAssemblies (1101ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (306ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (225ms)
+			ProcessInitializeOnLoadAttributes (810ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 22.40 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 5525 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (108.3 KB). Loaded Objects now: 5997.
-Memory consumption went from 190.3 MB to 190.2 MB.
-Total: 4.406700 ms (FindLiveObjects: 0.544100 ms CreateObjectMapping: 0.390300 ms MarkObjects: 3.324000 ms  DeleteObjects: 0.147100 ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 93.64 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 5720 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (0.6 MB). Loaded Objects now: 6192.
+Memory consumption went from 207.5 MB to 206.8 MB.
+Total: 5.275000 ms (FindLiveObjects: 0.490600 ms CreateObjectMapping: 0.463200 ms MarkObjects: 4.032600 ms  DeleteObjects: 0.287900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,231 +184,695 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 190.966733 seconds.
-  path: Assets/Scenes/Map.unity
-  artifactKey: Guid(45909a4d29d79494db609709606a1839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map.unity using Guid(45909a4d29d79494db609709606a1839) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6ab7f803b205e031ebdc53deb40cd3d8') in 0.001878 seconds
+  Time since last request: 1119.206195 seconds.
+  path: Assets/Mirror/Examples/Pong/Sprites/DottedLine.png
+  artifactKey: Guid(1b5c0b514d8b2d24091d5aec516fe860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Pong/Sprites/DottedLine.png using Guid(1b5c0b514d8b2d24091d5aec516fe860) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'acee83e461c9af6478dcb1d6fa50fc0f') in 0.132583 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 32.412038 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(3c7bd33e771d8ad46a47c59c445934a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(3c7bd33e771d8ad46a47c59c445934a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ba2db0145f2de865c79f47dcdd1191d4') in 0.009855 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mirror/Hosting/Edgegap/Editor/Images/discord-brands-solid-64px.png
+  artifactKey: Guid(63ea01afe23d1364780a447d738b7ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Hosting/Edgegap/Editor/Images/discord-brands-solid-64px.png using Guid(63ea01afe23d1364780a447d738b7ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bfd45dcda423284f52bc343fe473da05') in 0.041874 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Mirror/Examples/AdditiveLevels/Textures/Right_Tex.jpeg
+  artifactKey: Guid(4c8911efa34c845f28fbac86385a1b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveLevels/Textures/Right_Tex.jpeg using Guid(4c8911efa34c845f28fbac86385a1b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9a68a4131971aa7311fa6ba56deb7498') in 0.025311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Mirror/Editor/Icon/MirrorIcon.png
+  artifactKey: Guid(7453abfe9e8b2c04a8a47eb536fe21eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Editor/Icon/MirrorIcon.png using Guid(7453abfe9e8b2c04a8a47eb536fe21eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '80be34b55c24392a8fc368ae713b4cff') in 0.018223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mirror/Transports/Edgegap/edgegap.png
+  artifactKey: Guid(3ea6ff15cda674a57b0c7c8b7dc1878c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Transports/Edgegap/edgegap.png using Guid(3ea6ff15cda674a57b0c7c8b7dc1878c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '60441b3a0247a9e2f15d58692f5cae33') in 0.016928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.179962 seconds.
+  path: Assets/Mirror/Examples/TopDownShooter/Textures/EnemyHand1.png
+  artifactKey: Guid(555fa33eb6b0f42629907a4f86546c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/TopDownShooter/Textures/EnemyHand1.png using Guid(555fa33eb6b0f42629907a4f86546c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3d5e9bc03c4c4fbaf64c22ded2be28a') in 0.014173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.598232 seconds.
+  path: Assets/Mirror/Examples/TopDownShooter/Textures/Flash.png
+  artifactKey: Guid(97069797358d5451db2532d02399d87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/TopDownShooter/Textures/Flash.png using Guid(97069797358d5451db2532d02399d87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1fb91f14110c9ab08df270980e1fd8de') in 0.014729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.568974 seconds.
+  path: Assets/Mirror/Examples/TopDownShooter/Textures/HitPoint.png
+  artifactKey: Guid(6ebc4dc2a6c0c4ccd925714e03d2eef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/TopDownShooter/Textures/HitPoint.png using Guid(6ebc4dc2a6c0c4ccd925714e03d2eef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '20e52013b718a50234fe2e346cd2995a') in 0.020747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.127270 seconds.
+  path: Assets/Mirror/Examples/CharacterSelection/Textures/IconStickPerson.png
+  artifactKey: Guid(9e7771f048fdf40839b6ee9dbacad67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/CharacterSelection/Textures/IconStickPerson.png using Guid(9e7771f048fdf40839b6ee9dbacad67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '257098c602d11f59533f733e092696c5') in 0.142415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.110364 seconds.
+  path: Assets/Mirror/Examples/TopDownShooter/Textures/Player.png
+  artifactKey: Guid(1b7f974b645a6411a8b794e135abc4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/TopDownShooter/Textures/Player.png using Guid(1b7f974b645a6411a8b794e135abc4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '99452c81f2403c63fa53a19e27506ae7') in 0.014786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.133085 seconds.
+  path: Assets/Mirror/Hosting/Edgegap/Editor/Fonts/UbuntuMono-R SDF.asset
+  artifactKey: Guid(2635d61c9807d6c46bcb00a3d8645b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Hosting/Edgegap/Editor/Fonts/UbuntuMono-R SDF.asset using Guid(2635d61c9807d6c46bcb00a3d8645b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '231703c138540d70adf828226bebb6af') in 0.110275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.198 seconds
+- Loaded All Assemblies, in  2.369 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.646 seconds
-Domain Reload Profiling: 2833ms
-	BeginReloadAssembly (242ms)
+- Finished resetting the current domain, in 11.099 seconds
+Domain Reload Profiling: 13460ms
+	BeginReloadAssembly (160ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (787ms)
-		LoadAssemblies (874ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (2135ms)
+		LoadAssemblies (2195ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (39ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (4ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1647ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (11100ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (448ms)
+		SetupLoadedEditorAssemblies (434ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (295ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 23.22 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 5689 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (3.8 MB). Loaded Objects now: 6158.
-Memory consumption went from 199.9 MB to 196.1 MB.
-Total: 5.323600 ms (FindLiveObjects: 0.495300 ms CreateObjectMapping: 0.387800 ms MarkObjects: 3.002700 ms  DeleteObjects: 1.437000 ms)
+Refreshing native plugins compatible for Editor in 15.58 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 5652 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.6 MB). Loaded Objects now: 6247.
+Memory consumption went from 196.8 MB to 196.2 MB.
+Total: 3.881800 ms (FindLiveObjects: 0.450800 ms CreateObjectMapping: 0.368300 ms MarkObjects: 2.840300 ms  DeleteObjects: 0.221700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/AbsFilter.cs: eec45da3078262aefb7938df118ad87a -> 
-  custom:scripting/monoscript/fileName/BaseBrushUIGroup.cs: f3d79f09b8f41da79d38531e5168ee2f -> 
-  custom:scripting/monoscript/fileName/NoneFractalType.cs: 25da773c57ca61106ec7fc86eb6373a7 -> 
-  custom:scripting/monoscript/fileName/Filter.cs: 44a41dc767ec5f748893880acf05c662 -> 935824dbebf762a19f2d4c4751625fe2
-  custom:scripting/monoscript/fileName/FractalType.cs: f0a68b0494c41002f9f945e7b71b1216 -> 
-  custom:scripting/monoscript/fileName/TerrainToolboxUtilities.cs: a5dc108d5220e4b94b4ed137a0e429e4 -> 
-  custom:scripting/monoscript/fileName/SmudgeHeight.cs: 1462c04302f0981db09154b1f7d81802 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/NoiseLib.cs: b7278e7e0a44a273dd60f7ead0b281ae -> 
-  custom:scripting/monoscript/fileName/Heightmap.cs: b6d87f35c7d6c551db3a13a7afd2d798 -> 
-  custom:scripting/monoscript/fileName/TerrainFillUtility.cs: bb73b867a8925602f4fa7777c7a52e7a -> 
-  custom:scripting/monoscript/fileName/IBrushUIGroup.cs: c361cdf51dd0f7ebe4a43835a80dab24 -> 
-  custom:scripting/monoscript/fileName/BillowNoise.cs: 42426f7a4645fd7a235799b5cdc32b0b -> 
-  custom:scripting/monoscript/fileName/ConcavityFilter.cs: c1dd85d05ea4b694d69b549cc2dca1a3 -> 
-  custom:scripting/monoscript/fileName/DistributionSliderGUI.cs: cd4735ccbcd1478ef10d1340797ec107 -> 
-  custom:scripting/monoscript/fileName/PaintTextureTool.cs: e6a804b11f28ca65760cf1d61e47057b -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:scripting/monoscript/fileName/VoronoiNoise.cs: ee0a21c6257a3f0f119e4e766436da28 -> 
-  custom:scripting/monoscript/fileName/IBrushTerrainCache.cs: 90369d5d4a044058c0a92f0a57cff9cd -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/TerrainToolboxVisualization.cs: 51cab2dadf57114a9411397e4253d36c -> 
-  custom:scripting/monoscript/fileName/SharpenPeaksTool.cs: 4c81589f7e304310b9bf07e39770a962 -> 
-  custom:scripting/monoscript/fileName/ContrastTool.cs: 4c1951307605f0beec328a06a898d6af -> 
-  custom:scripting/monoscript/fileName/BrushScatterVariator.cs: 4b7c31aad2fb4696955a4c583080b06a -> 
-  custom:scripting/monoscript/fileName/TerrainSettings.cs: b5aea35d6e71e77b46eeffa77017f635 -> 
-  custom:scripting/monoscript/fileName/PinchHeight.cs: c73bbe9e2240fabf64b31107b1b23686 -> 
-  custom:scripting/monoscript/fileName/HydroErosion.cs: 84af384610ac3cf14ed423f2a226188b -> 
-  custom:scripting/monoscript/fileName/NoiseWindow.cs: 0d20bf0d60a95f1f4ca7bb9fe67398f3 -> 
-  custom:scripting/monoscript/fileName/MaxFilter.cs: b81408d5c0bb352d5436a4eace4516b2 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/DefaultBrushModifierKeys.cs: 6c3a5d7cd4a937da22e560786986baaa -> 
-  custom:scripting/monoscript/fileName/ThermalEroder.cs: 7e69c1378b1cd9cce2a8340a7e2b8578 -> 
-  custom:scripting/monoscript/fileName/HydraulicEroder.cs: 64e38060f50350f17719a98702355076 -> 
-  custom:scripting/monoscript/fileName/NoiseShaderGenerator.cs: da5831cc2231959a934e78f759d5ded8 -> 
-  custom:scripting/monoscript/fileName/NegateFilter.cs: 7c13689d916cde667e62e8d68c682c17 -> 
-  custom:scripting/monoscript/fileName/WindErosionTool.cs: c4fabfff0628525ee3df83e562f7560c -> 
-  custom:scripting/monoscript/fileName/SlopeFilter.cs: e667eecb9e19a65e593fbc4a499591c2 -> 
-  custom:scripting/monoscript/fileName/IBrushRotationController.cs: e23e00c29daa2db4793adaf7bb5003c3 -> 
-  custom:scripting/monoscript/fileName/NoiseComponentEditor.cs: a42f479c5eae3b41397b90f2a38d3f4a -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:scripting/monoscript/fileName/StrataFractalType.cs: ded195ca740e1d5403d9cd63e10add13 -> 
-  custom:scripting/monoscript/fileName/FilterContext.cs: ed947e57b2f8dfddca5bb2ca357713a8 -> 
-  custom:scripting/monoscript/fileName/HeightFilter.cs: 93c471cfcb972607d950b4436271ba09 -> 
-  custom:scripting/monoscript/fileName/NoiseFilter.cs: 26ebbe64769f7ff707c19b1da586af35 -> 
-  custom:scripting/monoscript/fileName/TwistHeight.cs: 4d6e84dc15af95271f9879bac25b45a0 -> 
-  custom:scripting/monoscript/fileName/IBrushEventHandler.cs: 648ef116e9374d8323af7e53add8a21d -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/BlurFilter.cs: 4bded063ee5a1d630a11ba413c1b48a1 -> 
-  custom:scripting/monoscript/fileName/ThermalErosionTool.cs: 5f881ed20a33bb3f8edf03dcbde9dd39 -> 
-  custom:scripting/monoscript/fileName/NoiseSettingsAssetEditor.cs: 73af756cb55ed1a080c1e5070b684cf8 -> 
-  custom:scripting/monoscript/fileName/ComplementFilter.cs: 8c6d904118843bd7c3ac329072b1e7bf -> 
-  custom:scripting/monoscript/fileName/LayerFilter.cs: e077d2014f1431925e82af8979171080 -> 
-  custom:scripting/monoscript/fileName/ValueNoise.cs: 5fd3e80ed38b7f3cbaad41b4857480dd -> 
-  custom:scripting/monoscript/fileName/NoiseFieldView.cs: b7a2dbb01a6982fddace5cd39506bf87 -> 
-  custom:scripting/monoscript/fileName/TerrainCreationSettings.cs: 498edb7316432962e83cd369d4324ec0 -> 
-  custom:scripting/monoscript/fileName/ExportNoiseWindow.cs: 0f5b6bac20cd34fc9fda83fb4100c836 -> 
-  custom:scripting/monoscript/fileName/TerrainToolUtility.cs: 244a0f70e48dd3483087b7779dcf1761 -> 
-  custom:scripting/precompiled-assembly-types:Unity.TerrainTools: 758d759d8ee1ceae06a90caf8f0a66c9 -> 
-  custom:scripting/monoscript/fileName/ExportNoiseGUI.cs: bdf46c6765465a3b579f10c67c7b8bc9 -> 
-  custom:scripting/monoscript/fileName/TerrainToolboxSettings.cs: 6c9485898c1d0d4e212a8c7253774f20 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/TerrainPalette.cs: 442c8043e3a423e9bfc363913f2310bc -> 
-  custom:scripting/monoscript/fileName/BrushSpacingVariator.cs: fffe8cd5ea384ad91e99ec1323918e4a -> 
-  custom:scripting/monoscript/fileName/RemapFilter.cs: 239f78308a6dad0764aa10ce8b541586 -> 
-  custom:scripting/monoscript/fileName/CloneBrushTool.cs: 5d261fbce7065a31431e535fdc703077 -> 
-  custom:scripting/monoscript/fileName/PowerFilter.cs: 3f83b308f8aa1802eb1e2d6a05319c53 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/MultiplyFilter.cs: dd63ab1d299eac3771ba4417ba375f67 -> 
-  custom:scripting/monoscript/fileName/MinFilter.cs: 2c244a65e7fa98d1553885f153f1aceb -> 
-  custom:scripting/monoscript/fileName/IBrushSmoothController.cs: 6eba50a9110366b69fa8939e6df9659e -> 
-  custom:scripting/monoscript/fileName/GeneratedShaderInfo.cs: e2948832f770475796b32f4675121e14 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/AspectFilter.cs: fb0af1ff0282a61b75d780590b69db91 -> 
-  custom:scripting/precompiled-assembly-types:Unity.TerrainTools.Editor: f93c768beb09fd323d03ee82db9243a8 -> 
-  custom:scripting/monoscript/fileName/NoiseUtils.cs: faeef5320eb33c91850ada4ff1b45027 -> 
-  custom:scripting/monoscript/fileName/IBrushRenderWithTerrain.cs: cf6f1366b8d01719796bb34375dff90e -> 
-  custom:scripting/monoscript/fileName/DetailsScatterTool.cs: e6f6e1739db2e6af452adcd451b1bac2 -> 
-  custom:scripting/monoscript/fileName/TerrainToolsAnalytics.cs: 65cc3f66f269f7f523161150ae21c342 -> 
-  custom:scripting/monoscript/fileName/ErosionUtility.cs: d23fb9b5d906b1cad40cc60e934bb2ac -> 
-  custom:scripting/monoscript/fileName/BrushJitterHandler.cs: fb326f0fb299994955e1d208d56f8fa5 -> 
-  custom:scripting/monoscript/fileName/IBrushSpacingController.cs: 87c16920c3444812b8c039df8e539072 -> 
-  custom:scripting/monoscript/fileName/Eroder.cs: f6882f2a548240ebabdfee90e26d61a0 -> 
-  custom:scripting/monoscript/fileName/TerrainToolboxLayer.cs: 754aecac0474dff6a654507c8effe965 -> 
-  custom:scripting/monoscript/fileName/ComputeUtility.cs: 3377ececa5b8f78274f4b404ca1e56f3 -> 
-  custom:scripting/monoscript/fileName/OptimizeHeightRange.cs: 33cd2a6f98a1fc3e3692f3dd5a328559 -> 
-  custom:scripting/monoscript/fileName/HlslDescriptions.cs: 2e5c0ec6d81804374463b441c6144b12 -> 
-  custom:scripting/monoscript/fileName/IBrushController.cs: 2c9ed248ab1dc4dc1a8342a91b58bb95 -> 
-  custom:scripting/monoscript/fileName/RidgeNoise.cs: ccf89751d2894a59fb771f5c3ce128d2 -> 
-  custom:scripting/monoscript/fileName/BrushShortcutHandler.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/ToolboxHelper.cs: dbd204f22d75718cc368defb63c01120 -> 
-  custom:scripting/monoscript/fileName/PaintHeightTool.cs: 3c73e63bf78c395ca6006c67bab6dede -> 
-  custom:scripting/monoscript/fileName/HydraulicErosionSettings.cs: ef4c5763f4fa0ad6b8fa4119fe4f1dbd -> 
-  custom:scripting/monoscript/fileName/FilterStackEditor.cs: 5cfe9165094bfe24e8679354fbf3353e -> 
-  custom:scripting/monoscript/fileName/NoiseComponent.cs: faac9ad071075a736b49e9501682bff0 -> 
-  custom:scripting/monoscript/fileName/TerrainGroup.cs: d28e044962126e2fa219bbc37336fe18 -> 
-  custom:scripting/monoscript/fileName/PerlinNoise.cs: 5a7afdb75b38f8fad4b8470342174293 -> a6d38456eeab3d5c728fa6dcc329b23b
-  custom:scripting/monoscript/fileName/IBrushSizeController.cs: a8dfdaac0314a368de1885929b574f29 -> 
-  custom:scripting/monoscript/fileName/BrushRenderWithTerrainUiGroup.cs: 28abd307e1aeeb8776dc5c8c9af0228b -> 
-  custom:scripting/monoscript/fileName/TerrainToolsShaderImporter.cs: 8ec1f896531cfc761ca14d07d2628d75 -> 
-  custom:scripting/monoscript/fileName/WindEroder.cs: e01803fb8046a3bccb677e259da160b8 -> 
-  custom:scripting/monoscript/fileName/DefaultBrushUIGroup.cs: 9a4ee807c9986c373bc11882e51d4f13 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/BrushRenderUIGroupUnderCursor.cs: 1f9c25dc6fe37aa84c0261e472067510 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/BridgeTool.cs: c627f7a34c31e430863f213b336e3138 -> 
-  custom:scripting/monoscript/fileName/TerrainGroupInspector.cs: 2b484e51159ff5010975334ffff60ec0 -> 
-  custom:scripting/monoscript/fileName/AddFilter.cs: 871403347470489ae58c5fe0134bced0 -> 
-  custom:scripting/monoscript/fileName/BrushRotationVariator.cs: 310fd28aa8d1088e0dcac5fcda274b4b -> 
-  custom:scripting/monoscript/fileName/FilterStack.cs: cbb178e0e5f8c9269c19fe65f4a650fb -> 
-  custom:scripting/monoscript/fileName/NoiseFillShaderGenerator.cs: 78dcb01bb90aad146b4765bd2347cd83 -> 
-  custom:scripting/monoscript/fileName/NoiseTemplateImporter.cs: b873a1f5be0140b678ef587728f04b55 -> 
-  custom:scripting/monoscript/fileName/IBrushRenderUnderCursor.cs: 6532e36aa0b5583c5a82fe0dafb29142 -> 
-  custom:scripting/monoscript/fileName/TerrainToolGUIHelper.cs: efaf61c0465611c889a53bb12260cfc2 -> 
-  custom:scripting/monoscript/fileName/ClampFilter.cs: 28c4a03461ff057ab8b6edef6965bacc -> 
-  custom:scripting/monoscript/fileName/NoiseSettings.cs: deb34e83d263704954b02d41a650d753 -> 
-  custom:scripting/monoscript/fileName/TerraceErosion.cs: a4a22fc05e03a7c3a7ce05ce27990b8a -> 
-  custom:scripting/monoscript/fileName/TerrainToolboxCreateTerrain.cs: 5d67d555e81171944fbb5df645d5241b -> 
-  custom:scripting/monoscript/fileName/IPaintContextRender.cs: da306055e7e9ad21d0a466c0b994eb49 -> 
-  custom:scripting/monoscript/fileName/BaseBrushVariator.cs: 8ef2898efa2bacdf62d241846fa96aa2 -> 
-  custom:scripting/monoscript/fileName/NoiseBlitShaderGenerator.cs: a5c81741db49e5e29bc72e29b95058d8 -> 
-  custom:scripting/monoscript/fileName/FilterUtility.cs: 36b2ef192f20260958fc9fd18ecad2ec -> 
-  custom:scripting/monoscript/fileName/IBrushStrengthController.cs: 3cf42935457403d6d2ec2f8c37b55610 -> 
-  custom:scripting/monoscript/fileName/IBrushScatterController.cs: 42b823fdc9f41b6ed5234049695c6deb -> 
-  custom:scripting/monoscript/fileName/IBrushModifierKeyController.cs: 3f44895df2c8b9c413e25173301aa0ed -> 
-  custom:scripting/monoscript/fileName/NoiseSettingsGUI.cs: 3fd552bf1996ce1fdcf5030db72af54e -> 
-  custom:scripting/monoscript/fileName/BrushStrengthVariator.cs: 68d041f4e687e8132acaf3c124109e0c -> 
-  custom:scripting/monoscript/fileName/SlopeFlattenTool.cs: c4256c8a98890165f6af21904025483a -> 
-  custom:scripting/monoscript/fileName/FilterStackView.cs: 5120ca1b3b69babad91c384f7be7a93f -> 
-  custom:scripting/monoscript/fileName/TerrainToolboxWindow.cs: 8e221bd451b65b6533689e552a2b9245 -> 
-  custom:scripting/monoscript/fileName/SmoothHeightTool.cs: f03633799f5b4a4c69fb3bb2f50728d0 -> 
-  custom:scripting/monoscript/fileName/NoiseSettingsFactory.cs: 2d016f87712a0e77014e1475960569e9 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/DefaultBrushSmoother.cs: 8a4663b0bdf452a7ec0231edf7c7e564 -> 
-  custom:scripting/monoscript/fileName/StampTool.cs: 4bb33afd9ae3a38d700c95b1909986a8 -> 
-  custom:scripting/monoscript/fileName/NoiseHeightTool.cs: 5c2327f039c1dd37f0d88a0f397af28a -> 
-  custom:scripting/monoscript/fileName/TerrainVisualizationSettings.cs: eb730232c61bbd31248f9ce9aa6395aa -> 
-  custom:scripting/monoscript/fileName/SetHeightTool.cs: 1ff938e56b1c0debf733c201d4541dba -> 
-  custom:scripting/monoscript/fileName/NoiseType.cs: 090ca925c5e6cdbca132221545b83756 -> 
-  custom:scripting/monoscript/fileName/SamplesLinkPackageManagerExtension.cs: 2211f84bf4e5014a6b1f498601323f40 -> 
-  custom:scripting/monoscript/fileName/FbmFractalType.cs: 144f74c3608bf08706204d0849400e88 -> 
-  custom:scripting/monoscript/fileName/NoiseEditorView.cs: e3a1c14dfa4323b65bc284ee321d8c59 -> 
-  custom:scripting/monoscript/fileName/BrushSizeVariator.cs: 74c935e09f8a9b9c52c39f89647c6f39 -> 
-  custom:scripting/monoscript/fileName/RTHandleCollection.cs: 66dbbdfa83cc1e0dae8832345c177e15 -> 
-  custom:scripting/monoscript/fileName/TerrainDetailUtilities.cs: 5449f2c350275fe5d845a715b36197e4 -> 
-  custom:scripting/monoscript/fileName/PaintHolesTool.cs: 344f5d2ec19bc7b41f8eab6be5ce9cbf -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.538 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.277 seconds
+Domain Reload Profiling: 1804ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1278ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 27.89 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 5653 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.6 MB). Loaded Objects now: 6250.
+Memory consumption went from 197.1 MB to 196.5 MB.
+Total: 7.793500 ms (FindLiveObjects: 1.029800 ms CreateObjectMapping: 0.581500 ms MarkObjects: 5.681800 ms  DeleteObjects: 0.498900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 253.717535 seconds.
-  path: Assets/New Terrain 2.asset
-  artifactKey: Guid(b49079cd725ee3e45962bad17e1ff9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 2.asset using Guid(b49079cd725ee3e45962bad17e1ff9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '85a20e39aad0c02a924988d078654a87') in 0.015222 seconds
+  Time since last request: 2967.012666 seconds.
+  path: Assets/Materials/Shelf_Mat.mat
+  artifactKey: Guid(71085b3fe5f94954e960f9fac0dcef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Shelf_Mat.mat using Guid(71085b3fe5f94954e960f9fac0dcef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0a8fdba43f33af40c888f38cb6eaf25f') in 0.063378 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.363963 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Clay.mat
+  artifactKey: Guid(8e490bc35d4fa2540b249fd6d8476937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Clay.mat using Guid(8e490bc35d4fa2540b249fd6d8476937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71ffcb977f9acc4401e653dc6be435c8') in 0.603954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Salt.mat
+  artifactKey: Guid(c292d8b53c67f6940931191518ce7ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Salt.mat using Guid(c292d8b53c67f6940931191518ce7ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44037b555e4a84071da6ad745d36add5') in 0.018726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass01.mat
+  artifactKey: Guid(461a36b1468ac7a439a3e7a414c11e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass01.mat using Guid(461a36b1468ac7a439a3e7a414c11e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'da38c5aa4d7176610d198f2097302dca') in 0.016505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GroundStones02.mat
+  artifactKey: Guid(8fb1b3ca155a46043b23d8477043017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GroundStones02.mat using Guid(8fb1b3ca155a46043b23d8477043017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5ed949813060ed5f35dcf4e0bc113c45') in 0.018056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry01.mat
+  artifactKey: Guid(5213a5ef58e5fac41a7889028eda09d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Dry01.mat using Guid(5213a5ef58e5fac41a7889028eda09d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2eaf429c991f3b520a21134a2d5c9bab') in 0.015663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass04.mat
+  artifactKey: Guid(ed0666338014955488862f7d87e0d9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass04.mat using Guid(ed0666338014955488862f7d87e0d9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e22a38701b78f6aaec84149e76b9b81b') in 0.019021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass03.mat
+  artifactKey: Guid(5cc129ebc7a1eff4cadd412f5b5395f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass03.mat using Guid(5cc129ebc7a1eff4cadd412f5b5395f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7afcb35a76a6b9fcd29bbad25da9ea5') in 0.018553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GrassLeafs01.mat
+  artifactKey: Guid(9664f0b8b9becfc40b5b338479727af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GrassLeafs01.mat using Guid(9664f0b8b9becfc40b5b338479727af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '933ead6d511f064fdcb0b960ec5355c1') in 0.022764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel02.mat
+  artifactKey: Guid(ca3c0a433ba5071419746bf35593518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel02.mat using Guid(ca3c0a433ba5071419746bf35593518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bac5bd96e1093d326aa9659b36510442') in 0.019833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GroundStones01.mat
+  artifactKey: Guid(b5d434b6712dd3441aef1195b53534a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GroundStones01.mat using Guid(b5d434b6712dd3441aef1195b53534a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0fd58f84fc8b6415a5b52333450270de') in 0.017691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel04.mat
+  artifactKey: Guid(511dbf3047c568a40828528abe75efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel04.mat using Guid(511dbf3047c568a40828528abe75efd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a09edc0bf8a14a61f030de5ad5f6085f') in 0.018684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_FrozenGrass.mat
+  artifactKey: Guid(50a4cc89bae2d744b871b26775165cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_FrozenGrass.mat using Guid(50a4cc89bae2d744b871b26775165cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '743c39640d25a58a76c87b5d9593707c') in 0.018350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Ground01.mat
+  artifactKey: Guid(da86e0e9da248f44685781dc53d77c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Ground01.mat using Guid(da86e0e9da248f44685781dc53d77c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '421a324dadd8dcce43df61432a504b91') in 0.018499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass06.mat
+  artifactKey: Guid(fc0753ef51468564b8cba8d470eaa6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass06.mat using Guid(fc0753ef51468564b8cba8d470eaa6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'adc5ea26019e2f12a62c114f1821c1ab') in 0.023789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Mars.mat
+  artifactKey: Guid(053fa0c86b03be449bd117d80d1eb19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Mars.mat using Guid(053fa0c86b03be449bd117d80d1eb19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c1a8d5182e1e79219cbf4a0f20e2c613') in 0.022610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Ground02.mat
+  artifactKey: Guid(567ffde350fbcaf4b9c62a0177a09824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Ground02.mat using Guid(567ffde350fbcaf4b9c62a0177a09824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bc6b87244c4cb8ed9089741d508deafe') in 0.017502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SandySoil.mat
+  artifactKey: Guid(1acd45f83e71ab84c90d18f5610e235e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SandySoil.mat using Guid(1acd45f83e71ab84c90d18f5610e235e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '25cc308d3b0705fb5ced38fc3d687bee') in 0.018410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilWeeds.mat
+  artifactKey: Guid(663c74368d619554fb55032e522ede1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilWeeds.mat using Guid(663c74368d619554fb55032e522ede1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e7e8dd01ee1dffe6b49571e5b8da5923') in 0.019681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass02.mat
+  artifactKey: Guid(09a5c4bdc5750fc4197d54f53b0bd0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Grass02.mat using Guid(09a5c4bdc5750fc4197d54f53b0bd0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e977b4579942407e074f44e20d7513de') in 0.020378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel01.mat
+  artifactKey: Guid(22bf02a07a45bed448653493bffa3624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel01.mat using Guid(22bf02a07a45bed448653493bffa3624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2c055e698ba991e0b9befa6bbde2da00') in 0.020901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GrassLeafs02.mat
+  artifactKey: Guid(819f33e97450f7648b451ffed5bc5900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_GrassLeafs02.mat using Guid(819f33e97450f7648b451ffed5bc5900) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cdda2e8ddbee2b2acb451f385c7ba79c') in 0.017599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_MossStones.mat
+  artifactKey: Guid(18850af96a701e042bf42d630f0b155b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_MossStones.mat using Guid(18850af96a701e042bf42d630f0b155b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7dcb7ca54401dc657427e9f37e7aae4b') in 0.020271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel03.mat
+  artifactKey: Guid(c83700c3ba5cf5e42a8af018f6fd489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_SoilGravel03.mat using Guid(c83700c3ba5cf5e42a8af018f6fd489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3534a17304122211d7f1ad755c8c753') in 0.018371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Lava.mat
+  artifactKey: Guid(a701c06082eb05f449e0d5c05debabc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Materials/M_YFGM_Lava.mat using Guid(a701c06082eb05f449e0d5c05debabc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8757c3fd0079113d18598beded196763') in 0.101857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 32.289895 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_e.tga
+  artifactKey: Guid(84a4b0bfc992fc84b8f203f84a3587f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Burnt_e.tga using Guid(84a4b0bfc992fc84b8f203f84a3587f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e92338b1e6282d39bfec82bbced10a1e') in 0.025152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_s.tga
+  artifactKey: Guid(341ed9a2275bda542946dcc309472f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Clay_s.tga using Guid(341ed9a2275bda542946dcc309472f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eedcab3abee721931ceb3928513ed9a6') in 0.021250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_d.tga
+  artifactKey: Guid(b47645ec735cee74b8dc287ec132889b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry01_d.tga using Guid(b47645ec735cee74b8dc287ec132889b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4ffebc132cf8bd71112d0540e025e8c0') in 0.043325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass01_n.tga
+  artifactKey: Guid(cb39bd4bc91c216419ef2e6dc2afae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass01_n.tga using Guid(cb39bd4bc91c216419ef2e6dc2afae0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d2c099b4ea983cb9f752e50be8d4008') in 0.024207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_d.tga
+  artifactKey: Guid(d0a3f503f90a9a343ac856854e0bde83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_d.tga using Guid(d0a3f503f90a9a343ac856854e0bde83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7bed7cd652f364fa00c05e9fab66d9a1') in 0.012257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry02_s.tga
+  artifactKey: Guid(7b22d0e45c5f87c4eb0b9ed9f7793f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry02_s.tga using Guid(7b22d0e45c5f87c4eb0b9ed9f7793f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '07cbc26600f29412467e384aa5585896') in 0.011859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_s.tga
+  artifactKey: Guid(2d4505821b5c4f348926fcad29f559af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Dry03_s.tga using Guid(2d4505821b5c4f348926fcad29f559af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd3c5498fb6f4d68c3f6d56f5c739268f') in 0.015908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_d.tga
+  artifactKey: Guid(0b6c444d13ed153479011a14e45cfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass04_d.tga using Guid(0b6c444d13ed153479011a14e45cfa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8bc18a166f53630d1ec87160401a6bc') in 0.014842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_s.tga
+  artifactKey: Guid(81c423889c41ff44992f9ddf90b3aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_s.tga using Guid(81c423889c41ff44992f9ddf90b3aceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5fc51acdb53200ead3ed8f2d4ec75a51') in 0.017058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_n.tga
+  artifactKey: Guid(64a668b993f05a44d81dad3299580617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass06_n.tga using Guid(64a668b993f05a44d81dad3299580617) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c589519addcec56d5be4636afab5bdd') in 0.016463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_n.tga
+  artifactKey: Guid(059e1218734df0843b511081194fc6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GrassLeafs01_n.tga using Guid(059e1218734df0843b511081194fc6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e96e4b9383a887203c6a46400c35f4ff') in 0.015290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass03_s.tga
+  artifactKey: Guid(0066ccd09c473314d8c22021a1ec3fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass03_s.tga using Guid(0066ccd09c473314d8c22021a1ec3fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3874c9aef6ce7871ba5e37383356e99d') in 0.014388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001233 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_s.tga
+  artifactKey: Guid(40f531c1a6e817441b8ed4a0ea3ca1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground01_s.tga using Guid(40f531c1a6e817441b8ed4a0ea3ca1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'afaf2a787df0c1ac7c329d47f930591d') in 0.014667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005756 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground02_s.tga
+  artifactKey: Guid(689f9767c1208dc4b822047799e1cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Ground02_s.tga using Guid(689f9767c1208dc4b822047799e1cac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cdfc5b6c4f55377f18aec19bc5df9f4d') in 0.014715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006038 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_d.tga
+  artifactKey: Guid(f0158c9b9c1a613408ad9349d2b40d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_GroundStones02_d.tga using Guid(f0158c9b9c1a613408ad9349d2b40d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4da53456b50bddcae7f01716a1e535f0') in 0.014520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.023976 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_n.tga
+  artifactKey: Guid(37b941f29bc240347ad7b5f87abae36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Lava_n.tga using Guid(37b941f29bc240347ad7b5f87abae36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1616dc19816218cf8ba71ce2f5af289d') in 0.014400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_s.tga
+  artifactKey: Guid(89101dc700039b842bba61c2b4376af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_s.tga using Guid(89101dc700039b842bba61c2b4376af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9d122b9880e5500345fcaeec87be2c86') in 0.015053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_n.tga
+  artifactKey: Guid(14dab577eea927a43bc3dd4131089312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Mars_n.tga using Guid(14dab577eea927a43bc3dd4131089312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '38c17846a08d6fad32b247405dea8357') in 0.015285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010788 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_n.tga
+  artifactKey: Guid(8fd0f8225a215f2468343706df80639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SandySoil_n.tga using Guid(8fd0f8225a215f2468343706df80639b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3e08e78e6f0f35a51265d5b93f5951e3') in 0.013964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.075252 seconds.
+  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel02_s.tga
+  artifactKey: Guid(5730cda2497c7b14b8969b4782edcaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_SoilGravel02_s.tga using Guid(5730cda2497c7b14b8969b4782edcaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d732ed3590a10e0246593c34bbb59b6') in 0.013752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
