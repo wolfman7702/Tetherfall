@@ -162,7 +162,8 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier: {}
+  applicationIdentifier:
+    Standalone: com.DefaultCompany.Tetherfall
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -650,7 +651,8 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: EDGEGAP_PLUGIN_SERVERS;MIRROR;MIRROR_89_OR_NEWER;MIRROR_90_OR_NEWER;MIRROR_93_OR_NEWER;MIRROR_96_OR_NEWER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -759,11 +761,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: e63faa7f-2ed5-4501-b475-6f597a2d9025
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: Tetherfall
+  organizationId: joshl03
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
