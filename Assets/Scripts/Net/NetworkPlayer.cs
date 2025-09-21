@@ -13,10 +13,10 @@ public class NetworkPlayer : NetworkBehaviour
 
     public override void OnStartAuthority()
     {
-        // Enable input for the local player
+        // Enable local input
         fps.enabled = true;
 
-        // Lock the main camera to this player's CameraPivot
+        // Lock main camera to this player
         var cam = Camera.main;
         if (cam != null)
         {
@@ -24,27 +24,18 @@ public class NetworkPlayer : NetworkBehaviour
             if (look != null)
             {
                 look.playerBody = transform;
-
                 var pivot = transform.Find("CameraPivot");
                 if (pivot != null)
-                {
                     look.cameraPivot = pivot;
-                }
             }
         }
 
-        // Hook into Vivox (if available)
+        // Vivox (optional)
         if (VoiceManagerUGS.Instance != null)
-        {
             VoiceManagerUGS.Instance.AttachLocalPlayer(transform);
-        }
 
-        // Tell the mountain streamer to follow THIS player
-        var faceStacker = FindObjectOfType<MountainFaceStacker>();
-        if (faceStacker != null && faceStacker.trackPlayer == null)
-        {
-            faceStacker.trackPlayer = transform;
-        }
+        // Note: Removed MountainFaceStacker/MountainStacker reference so this compiles
+        // even if those scripts are gone.
     }
 
     public override void OnStopAuthority()
@@ -54,10 +45,8 @@ public class NetworkPlayer : NetworkBehaviour
 
     void Start()
     {
-        // Disable input for players we don’t own
+        // Disable input for non-owned players
         if (!isOwned)
-        {
             fps.enabled = false;
-        }
     }
 }

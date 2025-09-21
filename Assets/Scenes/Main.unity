@@ -4014,7 +4014,6 @@ GameObject:
   m_Component:
   - component: {fileID: 952017437}
   - component: {fileID: 952017436}
-  - component: {fileID: 952017435}
   m_Layer: 0
   m_Name: World
   m_TagString: Untagged
@@ -4022,26 +4021,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &952017435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952017434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af6774669466498499a9b070790aaa0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0
-  facePrefab: {fileID: 5458760629165791451, guid: 5d8ac73f7e64fc346bba1bf05ad4cd30, type: 3}
-  initialFaces: 14
-  keepAheadHeight: 80
-  cullBelow: 60
-  trackPlayer: {fileID: 0}
 --- !u!114 &952017436
 MonoBehaviour:
   m_ObjectHideFlags: 0

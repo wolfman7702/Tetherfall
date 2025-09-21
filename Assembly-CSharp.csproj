@@ -61,11 +61,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Level\PerlinCliffArc.cs" />
     <Compile Include="Assets\Scripts\Player\FPSController.cs" />
-    <Compile Include="Assets\Scripts\Gameplay\MountainFaceStacker.cs" />
     <Compile Include="Assets\Scripts\Net\NetworkPlayer.cs" />
     <Compile Include="Assets\Scripts\Gameplay\TetherAutoPair.cs" />
     <Compile Include="Assets\Scripts\Level\NoiseDisplacer.cs" />
-    <Compile Include="Assets\Scripts\Gameplay\ProceduralMountainFace.cs" />
     <Compile Include="Assets\Scripts\Player\FPSLook.cs" />
     <Compile Include="Assets\Scripts\Net\MatchConfig.cs" />
     <Compile Include="Assets\Scripts\Gameplay\TetherLink.cs" />
