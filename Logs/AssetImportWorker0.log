@@ -15,7 +15,7 @@ D:/Projects/Climbing Game/Tetherfall
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57301
+64396
 Successfully changed project path to: D:/Projects/Climbing Game/Tetherfall
 D:/Projects/Climbing Game/Tetherfall
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,18 +49,18 @@ D:/Projects/Climbing Game/Tetherfall
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1940]  Target information:
+Player connection [2924]  Target information:
 
-Player connection [1940]  * "[IP] 10.0.0.196 [Port] 0 [Flags] 2 [Guid] 3573620264 [EditorId] 3573620264 [Version] 1048832 [Id] WindowsEditor(7,JoshsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2924]  * "[IP] 10.0.0.196 [Port] 0 [Flags] 2 [Guid] 3973608031 [EditorId] 3973608031 [Version] 1048832 [Id] WindowsEditor(7,JoshsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [1940]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3573620264 [EditorId] 3573620264 [Version] 1048832 [Id] WindowsEditor(7,JoshsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [2924]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3973608031 [EditorId] 3973608031 [Version] 1048832 [Id] WindowsEditor(7,JoshsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [1940] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [1940] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [2924] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 24.22 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 2.48 ms.
+Refreshing native plugins compatible for Editor in 23.27 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 2.44 ms.
 Initialize engine version: 2022.3.62f1 (4af31df58517)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Projects/Climbing Game/Tetherfall/Assets
@@ -75,44 +75,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006228 seconds.
-- Loaded All Assemblies, in  0.278 seconds
+Registered in 0.006881 seconds.
+- Loaded All Assemblies, in  0.287 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.216 seconds
-Domain Reload Profiling: 493ms
-	BeginReloadAssembly (89ms)
+- Finished resetting the current domain, in  0.223 seconds
+Domain Reload Profiling: 510ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (107ms)
-		LoadAssemblies (87ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (86ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (106ms)
-			TypeCache.Refresh (105ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (106ms)
 				TypeCache.ScanAssembly (94ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (216ms)
+	FinalizeReload (224ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (179ms)
+		SetupLoadedEditorAssemblies (178ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,57 +122,57 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.743 seconds
+- Loaded All Assemblies, in  1.118 seconds
 Native extension for WindowsStandalone target not found
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.676 seconds
-Domain Reload Profiling: 1409ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  0.713 seconds
+Domain Reload Profiling: 1820ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (536ms)
-		LoadAssemblies (405ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (872ms)
+		LoadAssemblies (586ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (154ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
+		AnalyzeDomain (378ms)
+			TypeCache.Refresh (337ms)
+				TypeCache.ScanAssembly (314ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (677ms)
+	FinalizeReload (714ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (550ms)
+		SetupLoadedEditorAssemblies (570ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (124ms)
-			ProcessInitializeOnLoadAttributes (364ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (394ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 31.93 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 43.19 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Unloading 5718 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 50 unused Assets / (1.4 MB). Loaded Objects now: 6191.
-Memory consumption went from 208.1 MB to 206.7 MB.
-Total: 9.389500 ms (FindLiveObjects: 1.233900 ms CreateObjectMapping: 0.731000 ms MarkObjects: 5.784800 ms  DeleteObjects: 1.638700 ms)
+Memory consumption went from 208.2 MB to 206.8 MB.
+Total: 4.323900 ms (FindLiveObjects: 0.542600 ms CreateObjectMapping: 0.194500 ms MarkObjects: 3.186700 ms  DeleteObjects: 0.399100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,100 +190,227 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 26357.789230 seconds.
-  path: Assets/Scenes/Map.unity
-  artifactKey: Guid(45909a4d29d79494db609709606a1839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map.unity using Guid(45909a4d29d79494db609709606a1839) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bba451ef1929f6e8918f97fd773611df') in 0.003293 seconds
+  Time since last request: 5771.052194 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(ebc53068c4b14dc4098efebe8dafd1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(ebc53068c4b14dc4098efebe8dafd1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48bf2696bf55bbb388dbdcf384ba18b4') in 0.002021 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 338.236786 seconds.
-  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_d.tga
-  artifactKey: Guid(0f7b02a6635fe744c9c28407ede09d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass05_d.tga using Guid(0f7b02a6635fe744c9c28407ede09d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 28.576271 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.000420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.591353 seconds.
+  path: Assets/Models
+  artifactKey: Guid(373222cb36a042146b351e6d735f9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(373222cb36a042146b351e6d735f9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ac4d63fac011993a09320467e4987f9a') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.700808 seconds.
+  path: Assets/Models/Cave Wall Cylinders
+  artifactKey: Guid(6fd5a5da083126b47ae49a216ac60b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Wall Cylinders using Guid(6fd5a5da083126b47ae49a216ac60b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6c890228974569bcab7d7a2944e2a813') in 0.000651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 54.442706 seconds.
+  path: Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155730_texture_obj
+  artifactKey: Guid(da46356a5b46c614da2732df713335fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155730_texture_obj using Guid(da46356a5b46c614da2732df713335fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd7edc8bfe66e4424c905e271c21b24c7') in 0.000437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.010948 seconds.
+  path: Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155730_texture_obj/“Game_ready_modular_0922155730_texture_obj
+  artifactKey: Guid(d24b7a86e6a137f4a9e04fa5a633d81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155730_texture_obj/“Game_ready_modular_0922155730_texture_obj using Guid(d24b7a86e6a137f4a9e04fa5a633d81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f57c723c8ae8656fd0bf2b3022388a04') in 0.000474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066934 seconds.
+  path: Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155730_texture_obj/“Game_ready_modular_0922155730_texture_obj/“Game_ready_modular_0922155730_texture.obj
+  artifactKey: Guid(4994cc87089029044be20b4b28b3167f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155730_texture_obj/“Game_ready_modular_0922155730_texture_obj/“Game_ready_modular_0922155730_texture.obj using Guid(4994cc87089029044be20b4b28b3167f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '84812b15ce70d3fe836481a863619754') in 0.055174 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd2b9974bc6dab04ed32b1a2a96ac6a30') in 0.161427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 239.973144 seconds.
+  path: Assets/TerrainData_3d940142-f02a-4d8b-b0a1-fd6bb3f318c6.asset
+  artifactKey: Guid(c9eb1b571ffafae40aae790ae68bbe41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_3d940142-f02a-4d8b-b0a1-fd6bb3f318c6.asset using Guid(c9eb1b571ffafae40aae790ae68bbe41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '50200b13a6503c4c78c04fc8e2d85b7d') in 0.026577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_a5f04c57-a571-4c3c-85f3-11d8a8b475cd.asset
+  artifactKey: Guid(e2fd09694344d9443bf5876137d1d832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_a5f04c57-a571-4c3c-85f3-11d8a8b475cd.asset using Guid(e2fd09694344d9443bf5876137d1d832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '225c3dc66c17432775df84da4544ba27') in 0.012703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_919defba-c66b-4af6-9fb1-c97368e50407.asset
+  artifactKey: Guid(cfa1cb1bfc602204fb25da5f1f559944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_919defba-c66b-4af6-9fb1-c97368e50407.asset using Guid(cfa1cb1bfc602204fb25da5f1f559944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b750d027b4a80939a9c581eb8b84587') in 0.014559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TerrainData_7fd3ebc9-b89d-404b-9af3-dfea205a49fc.asset
+  artifactKey: Guid(2a8a3fffa7c453a4c906e8f5cfccd438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_7fd3ebc9-b89d-404b-9af3-dfea205a49fc.asset using Guid(2a8a3fffa7c453a4c906e8f5cfccd438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b06fce8b3b14bb71d60fe31b8019ef58') in 0.013690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.156060 seconds.
+  path: Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155654_texture_obj/“Game_ready_modular_0922155654_texture_obj/“Game_ready_modular_0922155654_texture.png
+  artifactKey: Guid(ac3e1f3a6c1676a46ad60f22dc41ac96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155654_texture_obj/“Game_ready_modular_0922155654_texture_obj/“Game_ready_modular_0922155654_texture.png using Guid(ac3e1f3a6c1676a46ad60f22dc41ac96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6a424b9258f5347ee3bfe31f8c9874f6') in 0.022469 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_d.tga
-  artifactKey: Guid(502f952cfa766ce4385ec69b3c1a51c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeGroundMaterials/Textures/T_YFGM_Grass02_d.tga using Guid(502f952cfa766ce4385ec69b3c1a51c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 4.895988 seconds.
+  path: Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155636_texture_obj/“Game_ready_modular_0922155636_texture_obj/“Game_ready_modular_0922155636_texture.png
+  artifactKey: Guid(1bbd3ac51bd7a18489a5b150141dc40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155636_texture_obj/“Game_ready_modular_0922155636_texture_obj/“Game_ready_modular_0922155636_texture.png using Guid(1bbd3ac51bd7a18489a5b150141dc40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6ad6c70dd160e425e175fb2f8806e5d2') in 0.020412 seconds
+ -> (artifact id: '6d021c7ed12caea31b52d195c84e0e48') in 0.029770 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.566 seconds
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.483 seconds
-Domain Reload Profiling: 2040ms
-	BeginReloadAssembly (153ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (342ms)
-		LoadAssemblies (393ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1483ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (510ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (325ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 27.81 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 5651 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6197.
-Memory consumption went from 192.9 MB to 191.6 MB.
-Total: 8.625100 ms (FindLiveObjects: 1.184400 ms CreateObjectMapping: 0.794100 ms MarkObjects: 5.860400 ms  DeleteObjects: 0.784900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 3.968504 seconds.
+  path: Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155613_texture_obj/“Game_ready_modular_0922155613_texture_obj/“Game_ready_modular_0922155613_texture.png
+  artifactKey: Guid(18f980cfa4770354cb9c901ce5c6bcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155613_texture_obj/“Game_ready_modular_0922155613_texture_obj/“Game_ready_modular_0922155613_texture.png using Guid(18f980cfa4770354cb9c901ce5c6bcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '111d63134864aafd56902d7ed211a724') in 0.020258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.602597 seconds.
+  path: Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155552_texture_obj/“Game_ready_modular_0922155552_texture_obj/“Game_ready_modular_0922155552_texture.png
+  artifactKey: Guid(a60f02bf3d548c049aea59b17680ce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Wall Cylinders/“Game_ready_modular_0922155552_texture_obj/“Game_ready_modular_0922155552_texture_obj/“Game_ready_modular_0922155552_texture.png using Guid(a60f02bf3d548c049aea59b17680ce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0cc510a105a43f58951c00e224e7ed8') in 0.015537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 84.128855 seconds.
+  path: Assets/Mirror/Examples/PickupsDropsChilds/Prefabs/Ball.prefab
+  artifactKey: Guid(90446831fd6fe7f43ae80c6fb7cb7a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/PickupsDropsChilds/Prefabs/Ball.prefab using Guid(90446831fd6fe7f43ae80c6fb7cb7a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cd3b80cfe76cf5ffbdf391334756e469') in 0.081871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mirror/Examples/PickupsDropsChilds/Prefabs/Bat.prefab
+  artifactKey: Guid(b69a433c73f41474da198fa7ef37e343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/PickupsDropsChilds/Prefabs/Bat.prefab using Guid(b69a433c73f41474da198fa7ef37e343) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '74f6d305cdbfb8d285e4af3fafeb2ef8') in 0.030564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mirror/Examples/BenchmarkStinkySteak/Dependencies/netcode-benchmarker-util/Runtime/Prefabs/BaseGUIGame.prefab
+  artifactKey: Guid(6e6b75e5db829b54ba9287ce8d21b551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/BenchmarkStinkySteak/Dependencies/netcode-benchmarker-util/Runtime/Prefabs/BaseGUIGame.prefab using Guid(6e6b75e5db829b54ba9287ce8d21b551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dbe305b0798c76c0af488525caa5ec18') in 0.011098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mirror/Examples/AdditiveScenes/Prefabs/Capsule.prefab
+  artifactKey: Guid(e1971f4a8c7661546bc509b44bd91b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/AdditiveScenes/Prefabs/Capsule.prefab using Guid(e1971f4a8c7661546bc509b44bd91b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8fbdda3fb5a44bbf0622c0dc0e0a425f') in 0.059341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mirror/Examples/_Common/Scripts/CanvasNetworkManagerHUD/CanvasNetworkManagerHUD.prefab
+  artifactKey: Guid(481ace15d5c62488e94a119ae14d62b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/_Common/Scripts/CanvasNetworkManagerHUD/CanvasNetworkManagerHUD.prefab using Guid(481ace15d5c62488e94a119ae14d62b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'abe4eeeb4a956ec18bf8eba3a844b1c0') in 0.007311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Mirror/Examples/Billiards/Table/BilliardTable Model.obj
+  artifactKey: Guid(25f03344dfdd844f88e89487c558fe35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Billiards/Table/BilliardTable Model.obj using Guid(25f03344dfdd844f88e89487c558fe35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'caa477e87a0de8c891be86dbef6ea8e3') in 0.041127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Mirror/Components/Profiling/Prefabs/BandwidthGraph.prefab
+  artifactKey: Guid(3c7a97355c25a2b4da731b53876f8a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Components/Profiling/Prefabs/BandwidthGraph.prefab using Guid(3c7a97355c25a2b4da731b53876f8a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '192bcbcda12a88b258a2f26d478e09c7') in 0.015053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

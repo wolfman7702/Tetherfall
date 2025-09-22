@@ -8,3 +8,7 @@
 *.unitypackage filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+Assets/Models/Props/Enchanted_Crystal_Vil_0922180233_texture_obj/Enchanted_Crystal_Vil_0922180233_texture.obj filter=lfs diff=lfs merge=lfs -text
+Assets/Models/Props/Village_with_glowing__0922174959_texture_obj/Village_with_glowing__0922174959_texture.obj filter=lfs diff=lfs merge=lfs -text
