@@ -60,15 +60,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Level\PerlinCliffArc.cs" />
+    <Compile Include="Assets\Scripts\Player\ResetBones.cs" />
     <Compile Include="Assets\Scripts\Player\FPSController.cs" />
+    <Compile Include="Assets\Scripts\Bind Camera.cs" />
+    <Compile Include="Assets\Scripts\Player\FPBodyTrim.cs" />
     <Compile Include="Assets\Scripts\Net\NetworkPlayer.cs" />
+    <Compile Include="Assets\Scripts\Player\FirstPersonLook.cs" />
     <Compile Include="Assets\Scripts\Gameplay\TetherAutoPair.cs" />
+    <Compile Include="Assets\Scripts\Player\FollowCam.cs" />
     <Compile Include="Assets\Scripts\Level\NoiseDisplacer.cs" />
+    <Compile Include="Assets\Scripts\Player\HideHead.cs" />
+    <Compile Include="Assets\Scripts\Player\DriveAnimator.cs" />
     <Compile Include="Assets\Scripts\Player\FPSLook.cs" />
     <Compile Include="Assets\Scripts\Net\MatchConfig.cs" />
     <Compile Include="Assets\Scripts\Gameplay\TetherLink.cs" />
     <Compile Include="Assets\Scripts\Net\VoiceManagerUGS.cs" />
     <Compile Include="Assets\Scripts\Level\BakeNoiseCollider.cs" />
+    <Compile Include="Assets\Scripts\Player\LocalPlayerFPBody.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />

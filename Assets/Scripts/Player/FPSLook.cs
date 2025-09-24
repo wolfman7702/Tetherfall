@@ -7,11 +7,11 @@ public class FPSLook : MonoBehaviour
     public Transform cameraPivot;    // the CameraPivot (eye height)
 
     [Header("Sensitivity")]
-    public float mouseSensitivity = 1.2f; // raise if too slow
+    public float mouseSensitivity = 6f; // raise if too slow
 
     [Header("Pitch Clamp")]
-    public float minPitch = -80f;
-    public float maxPitch = 80f;
+    public float minPitch = -70f;
+    public float maxPitch = 85f;
 
     float yaw;   // rotates the body (Y)
     float pitch; // rotates the camera (X)
