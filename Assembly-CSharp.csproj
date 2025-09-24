@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\Level\PerlinCliffArc.cs" />
     <Compile Include="Assets\Scripts\Player\ResetBones.cs" />
     <Compile Include="Assets\Scripts\Player\FPSController.cs" />
+    <Compile Include="Assets\Models\(LITE) Splash of Color - Unique Photogrammetry Plants\Script\BillboardScript.cs" />
     <Compile Include="Assets\Scripts\Bind Camera.cs" />
     <Compile Include="Assets\Scripts\Player\FPBodyTrim.cs" />
     <Compile Include="Assets\Scripts\Net\NetworkPlayer.cs" />
@@ -95,10 +96,12 @@
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Rocks.dll" />
     <None Include="Assets\Mirror\Readme.txt" />
     <None Include="Assets\ScriptTemplates\57-Mirror__Network Transform-NewNetworkTransform.cs.txt" />
+    <None Include="Assets\Models\Blue Olive Studio\Crystals set\Documentation.txt" />
     <None Include="Assets\ScriptTemplates\52-Mirror__Network Behaviour-NewNetworkBehaviour.cs.txt" />
     <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
     <None Include="Assets\ScriptTemplates\55-Mirror__Network Room Player-NewNetworkRoomPlayer.cs.txt" />
     <None Include="Assets\ScriptTemplates\54-Mirror__Custom Interest Management-CustomInterestManagement.cs.txt" />
+    <None Include="Assets\Models\(LITE) Splash of Color - Unique Photogrammetry Plants\Documentation\README.txt" />
     <None Include="Assets\ScriptTemplates\50-Mirror__Network Manager-NewNetworkManager.cs.txt" />
     <None Include="Assets\ScriptTemplates\54-Mirror__Network Room Manager-NewNetworkRoomManager.cs.txt" />
     <None Include="Assets\Mirror\Hosting\Readme.txt" />
