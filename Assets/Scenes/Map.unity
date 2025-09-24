@@ -122,6 +122,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &42851629
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster B (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 63.32742
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 107.176285
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 75.58687
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 886.11694
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 836.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 294.7233
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
 --- !u!1 &44815644
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,11 +391,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9332c13f4dc42f4fa108236c8d9a847, type: 3}
---- !u!4 &91842649 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-  m_PrefabInstance: {fileID: 432906107}
-  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &122004912
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal D (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 232.68819
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 175.08087
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 174.08759
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 568
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 374.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 804.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.39662695
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.9179799
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -133.265
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
 --- !u!1001 &165579949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -405,6 +538,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1231909215900800695, guid: d17b25948e8c153429e46c22f566aa6d, type: 3}
   m_PrefabInstance: {fileID: 645512257}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &226370547
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal D (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 752.06006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 872.3598
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 722.00977
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 430.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 743.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 188.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.12077476
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.93269664
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.30675521
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.14625916
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 161.638
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 12.087006
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -34.450012
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
 --- !u!4 &248933793 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7253309665574420748, guid: 4d8e4e68bdc1d7e47a0537fb6d2189fb, type: 3}
@@ -483,11 +685,222 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76fb66f48db303d439bb18f609d438a8, type: 3}
+--- !u!1001 &267395704
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 78.629456
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 165.84074
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 88.66109
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 208.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 228.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 492.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.012058393
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.534291
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.007622859
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.8451802
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.477
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -64.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -179.299
+      objectReference: {fileID: 0}
+    - target: {fileID: 3441551980854034942, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9df17278d99a8764aae935752f67b3e0, type: 2}
+    - target: {fileID: 8831831666521383262, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_Name
+      value: Orange Citrine Rock Cluster A
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
 --- !u!4 &269643731 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 414911644686865097, guid: d9332c13f4dc42f4fa108236c8d9a847, type: 3}
   m_PrefabInstance: {fileID: 1528400263}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &273815253
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 41.066982
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 45.432
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 33.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 368.42896
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 193.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 767.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06087474
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.9981454
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -173.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+--- !u!1001 &274922133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine  Cluster A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 232.14029
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 772.54333
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 260.20734
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 364.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 821.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 304.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.021894986
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.92204696
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.045041904
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.38382453
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 184.299
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 314.94202
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -3.8099976
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
 --- !u!1001 &326371355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -569,75 +982,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6581076895117488106, guid: b59ca07599cc0594a9028c7138351c47, type: 3}
   m_PrefabInstance: {fileID: 509591480}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &348086846
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1719552856}
-    m_Modifications:
-    - target: {fileID: 2518132312620273559, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_Name
-      value: Orange citrine Cluster B 1k
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.8408203
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -71.235886
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -410.12024
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
 --- !u!1 &370000014
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +1095,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4469635993492989748, guid: 39f0d5a07ef3bba4e992f475eb354c85, type: 3}
   m_PrefabInstance: {fileID: 818093092}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &380888412
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 34.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 93.27617
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 47.85748
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 387.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 191.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 777.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.48720154
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.10123885
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.27684283
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.8220361
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -20.886
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -27.832
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -113.462
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
 --- !u!1001 &405419694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -824,75 +1237,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ba0747df93a5b438c93b15a636d950, type: 3}
---- !u!1001 &432906107
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1719552856}
-    m_Modifications:
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.2104492
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -71.19075
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -409.5282
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20713353660988849, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8831831666521383262, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
-      propertyPath: m_Name
-      value: Orange Citrine Rock Cluster A 1K
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ec000aa33484a5f44bdd3f397479deb9, type: 3}
 --- !u!4 &435783304 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2269798278267827901, guid: 475c5982132862044a62945a65150fdd, type: 3}
@@ -1160,11 +1504,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 929655ea3fb6f4643a9681d8ebbd0f80, type: 3}
   m_PrefabInstance: {fileID: 1169826662}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &562872662 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
-  m_PrefabInstance: {fileID: 1206904549}
-  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &582902943
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster C
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 25.232487
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 22.319
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 30.118488
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 351.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 178.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 770.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.94044125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.047887776
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.31262216
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.12467724
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.694
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 36.869
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -15.335
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
 --- !u!1001 &597157672
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1255,6 +1663,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9183822164581190645, guid: 1b72cd03bf5ed994e832f600bd3430f7, type: 3}
   m_PrefabInstance: {fileID: 513026689}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &620667790
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster C (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 24.223034
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 22.068901
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 32.74832
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 927.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 848.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 481.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99358237
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.005550507
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0007346641
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.11297266
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.641
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 12.974
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
 --- !u!4 &627043807 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 764422125560917605, guid: e537d4bdfff4d734687ba9ab5025ab53, type: 3}
@@ -1634,11 +2111,148 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bbb8b05f8675ff40aeaaac23d65abbb, type: 3}
---- !u!4 &737409619 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-  m_PrefabInstance: {fileID: 1446735024}
-  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &711898443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine  Cluster A
+      objectReference: {fileID: 0}
+    - target: {fileID: 3631668650798761342, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.9192
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 63.511024
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 236.0048
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 63.082424
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 849.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 422.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 691.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.15969814
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.08445092
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.10506316
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.97791934
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 10.283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -11.652
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 160.398
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b84b05451199b1f47a1ba87b6656844d, type: 3}
+--- !u!1001 &724499601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 23.273827
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 26.706
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 38.496914
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 290.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 183.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 731.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9252399
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.24740781
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08010789
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.27623028
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -24.429
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 18.236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -37.226
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
 --- !u!1001 &749509102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1806,6 +2420,213 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 929655ea3fb6f4643a9681d8ebbd0f80, type: 3}
   m_PrefabInstance: {fileID: 597157672}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &769606849
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal D (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 206.85333
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 172.82549
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 267.3902
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 624.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 334.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 816.157
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9965821
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.08260846
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -9.477
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+--- !u!1001 &806097593
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster B
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 23.94821
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 18.944408
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 21.151785
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 263.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 181.79532
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 688.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6123152
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7906138
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 104.486
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+--- !u!1001 &812142303
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal C
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 102.629395
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 379.45605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 120.71553
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 561.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 178.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 792.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.748692
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6629181
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 83.046
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
 --- !u!1001 &818093092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2057,11 +2878,165 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1384234782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &853060161
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal A
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 97.15306
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 314.66003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 121.71799
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 892.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 826.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 344.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9953333
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.09523186
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.014361168
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0060345945
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 10.938
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 1.601
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.541
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ae6a15a9bd0501943bed8d517513b68f, type: 3}
 --- !u!4 &872577377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 929655ea3fb6f4643a9681d8ebbd0f80, type: 3}
   m_PrefabInstance: {fileID: 1101883636}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &885536960
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1003524535027939721, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003524535027939721, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 11.016001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003524535027939721, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.324
+      objectReference: {fileID: 0}
+    - target: {fileID: 2136413643693441766, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9df17278d99a8764aae935752f67b3e0, type: 2}
+    - target: {fileID: 2518132312620273559, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster B (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 135.80002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 127.79536
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 118.18684
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 244.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 209.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 352.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.036701467
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.55967623
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.07834552
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.8241829
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -9.801
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 68.494
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -181.582
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
 --- !u!4 &904779806 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3990090408338425691, guid: dd67f6cfaa0a9a54b9b5c0ea77631d33, type: 3}
@@ -2082,6 +3057,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 365800943286535913, guid: 52ba5307c5ff52e4d87b3aa00541d7d1, type: 3}
   m_PrefabInstance: {fileID: 1155197281}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1037152374
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal D
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 123.05113
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 63.188007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 95.12845
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 275.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 180.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 699.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98917997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.13777126
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0069552027
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.049937457
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 15.775
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.639
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -6.007
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
 --- !u!4 &1040465455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6581076895117488106, guid: b59ca07599cc0594a9028c7138351c47, type: 3}
@@ -2482,6 +3526,75 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 929655ea3fb6f4643a9681d8ebbd0f80, type: 3}
+--- !u!1001 &1145823937
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal D (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 68.343
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 57.680164
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 65.145
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 396.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 173.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 773.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98725146
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.11523898
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.012729482
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.10905335
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 13.316
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -12.607
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
 --- !u!4 &1148574842 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8078069896241673066, guid: 3f4361a88907a3a45a47e74778ba06be, type: 3}
@@ -2641,75 +3754,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6581076895117488106, guid: b59ca07599cc0594a9028c7138351c47, type: 3}
   m_PrefabInstance: {fileID: 1111845119}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1206904549
+--- !u!1001 &1209779581
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1719552856}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2752453426059368488, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 966607810235432403, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_Name
-      value: Orange citrine Geode A 1k
+      value: Orange citrine Crystal C (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 359.67233
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 613.3298
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 353.06445
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.4094238
+      value: 454.2
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -71.18958
+      value: 282.2
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -410.86026
+      value: 179.8
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9904708
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.04646317
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.006075188
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.12950678
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 5.19
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -1.385
       objectReference: {fileID: 0}
-    - target: {fileID: 8309395057128206299, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+    - target: {fileID: 3137976354966902745, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -14.961
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ad6cc35c165cf2c469d918f9d2850494, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 205575b02337afe48a19c70ae841b2fd, type: 3}
 --- !u!1 &1218846827 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8164078558771037576, guid: 929655ea3fb6f4643a9681d8ebbd0f80, type: 3}
@@ -2896,11 +4009,149 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f4361a88907a3a45a47e74778ba06be, type: 3}
+--- !u!1001 &1321559634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal B (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 162.71841
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 201.77245
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 113.25971
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 875.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 837.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 329.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98252785
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0932801
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.01522169
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.16033141
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -10.847
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -18.536
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4998711fc90bf94296705b636289d8d, type: 3}
 --- !u!4 &1326516351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a2dda6b92aa22174a922982e241cb4a9, type: 3}
   m_PrefabInstance: {fileID: 1973627173}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1337794469
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2752453426059368488, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Geode A
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 46.81108
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 33.11795
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 36.292847
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 306.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 206.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 722.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.024417652
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0013964113
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.05707823
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.9980701
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.538
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.322
+      objectReference: {fileID: 0}
+    - target: {fileID: 8309395057128206299, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -177.179
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d2a4b3f4a84e59f468863a33313eaf56, type: 3}
 --- !u!4 &1339433205 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2344114407307485063, guid: dae897f3b4dddd649b5b9e204ccb9db0, type: 3}
@@ -3052,6 +4303,104 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b59ca07599cc0594a9028c7138351c47, type: 3}
+--- !u!1001 &1377435634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal D (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 14.318
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 633.603
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 526.1447
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 174.27728
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176634352184568411, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7631.076
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176634352184568411, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5423.7544
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176634352184568411, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 7466.772
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176634352184568411, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.069496
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176634352184568411, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0057385876
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176634352184568411, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.08209336
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176634352184568411, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.9941821
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176634352184568411, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 9.441
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176634352184568411, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -172.003
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 6844346200756318433, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
 --- !u!1 &1384234781
 GameObject:
   m_ObjectHideFlags: 0
@@ -3092,6 +4441,75 @@ Transform:
   - {fileID: 1810342550}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1396635159
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal D (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 303.4747
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 379.64685
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 230.10953
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 913.2395
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 840.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 366
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.81224996
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.58330965
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 71.367
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
 --- !u!1001 &1402475980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3271,75 +4689,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 475c5982132862044a62945a65150fdd, type: 3}
---- !u!1001 &1446735024
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1719552856}
-    m_Modifications:
-    - target: {fileID: 737608925588345888, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_Name
-      value: Orange Citrine Rock Cluster B 1K
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.6690674
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -71.2265
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -410.8268
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2623869576503182899, guid: 3d480ef070148594084ed12880d53f35, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3d480ef070148594084ed12880d53f35, type: 3}
 --- !u!1001 &1472391569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3418,15 +4767,269 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9201355908865806468, guid: f9ba0747df93a5b438c93b15a636d950, type: 3}
   m_PrefabInstance: {fileID: 405419694}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1480650689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 64.16308
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 91.66771
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 61.7324
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 723.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 323.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 788.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9963553
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.08530098
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20713353660988849, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -9.787
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831831666521383262, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+      propertyPath: m_Name
+      value: Orange Citrine Rock Cluster A (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b4a4e735ee74c4d40b347592e9f59a19, type: 3}
+--- !u!1001 &1482591486
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12.091
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 12.492352
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 31.191593
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1047
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0242
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.1339
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.14234626
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.69605005
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70016956
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.070813425
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -162.703
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 6.057007
+      objectReference: {fileID: 0}
+    - target: {fileID: 64637104200607614, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -91.26001
+      objectReference: {fileID: 0}
+    - target: {fileID: 966607810235432403, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal B
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 197.42189
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 643.88495
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 317.41672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 713.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 365.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 786.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5635665
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.19237293
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3341055
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.73058814
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -15.745
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -43.103
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -98.456
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4998711fc90bf94296705b636289d8d, type: 3}
+--- !u!1001 &1487169410
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster B (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 77.768715
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 110.698746
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 79.28313
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 665.9219
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 335.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 808.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
 --- !u!4 &1492377989 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6581076895117488106, guid: b59ca07599cc0594a9028c7138351c47, type: 3}
   m_PrefabInstance: {fileID: 1365254506}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1497984066 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7947029287245973831, guid: 6946032f2eb385d4f821d14cba79185a, type: 3}
-  m_PrefabInstance: {fileID: 348086846}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1505574192
 PrefabInstance:
@@ -3696,79 +5299,75 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1599032090
+--- !u!1001 &1590796148
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1719552856}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5724498740091872590, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 351a82a6bcbbab84cb08bda09821e684, type: 2}
-    - target: {fileID: 6390630857657926224, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 2518132312620273559, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_Name
-      value: Rock_desert
+      value: Orange citrine Cluster B (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalScale.x
-      value: 26.555222
+      value: 36.121387
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalScale.y
-      value: 29.193256
+      value: 14.82498
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalScale.z
-      value: 24.486824
+      value: 34.234425
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -98.88251
+      value: 319.62
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 465.40118
+      value: 200.34
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 64.89075
+      value: 733.07
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.046180688
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.41585633
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.02115011
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.9080107
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -4.406
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -49.068
       objectReference: {fileID: 0}
-    - target: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+    - target: {fileID: 7947029287245973831, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -183.811
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c1d68e9b5e0243946b503629e71cad37, type: 3}
 --- !u!1 &1600300653
 GameObject:
   m_ObjectHideFlags: 0
@@ -4088,6 +5687,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d17b25948e8c153429e46c22f566aa6d, type: 3}
+--- !u!1001 &1632043707
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 966607810235432403, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Crystal D (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 78.656334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 49.82302
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 78.207756
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 243.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 203.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 673.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.26828915
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.013425309
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.048140973
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.96204114
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -4.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -2.972
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137976354966902745, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -148.708
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4f887fbfe025d0428e442d6ab7fbdcb, type: 3}
 --- !u!1001 &1646004869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4239,11 +5907,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 929655ea3fb6f4643a9681d8ebbd0f80, type: 3}
---- !u!4 &1704684867 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6390630857657926226, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
-  m_PrefabInstance: {fileID: 1599032090}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1719552855
 GameObject:
   m_ObjectHideFlags: 0
@@ -4302,14 +5965,9 @@ Transform:
   - {fileID: 435783304}
   - {fileID: 1057214682}
   - {fileID: 1274734431}
-  - {fileID: 1704684867}
   - {fileID: 1237449360}
   - {fileID: 1912290984}
   - {fileID: 179981283}
-  - {fileID: 1497984066}
-  - {fileID: 91842649}
-  - {fileID: 737409619}
-  - {fileID: 562872662}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1722285496
@@ -4945,6 +6603,144 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1231909215900800695, guid: d17b25948e8c153429e46c22f566aa6d, type: 3}
   m_PrefabInstance: {fileID: 1620049331}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1925501228
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster C (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 30.631544
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 39.81132
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 56.60808
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 336.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 198.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 747.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.018701546
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.8477536
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.011690356
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5299316
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -181.107
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 64.041
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.2720032
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+--- !u!1001 &1955847283
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster C (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 33.301918
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 28.477592
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 24.945
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 354.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 196.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 755.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.037875555
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.99928254
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -175.659
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
 --- !u!1 &1969229806
 GameObject:
   m_ObjectHideFlags: 0
@@ -5039,6 +6835,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1970333087
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7061164154414774860, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_Name
+      value: Crystal_43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 90.85118
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 230.75793
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 78.04099
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 663.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 669
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 161.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6520836
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6302749
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.37101653
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.19971812
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 75.973
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 106.737
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689223254819299574, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 58.752
+      objectReference: {fileID: 0}
+    - target: {fileID: 8862722409786153881, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0478c095cae83ba45beb12566491bfed, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e841115e7e4c7004ca10f193b4b7c1e9, type: 3}
 --- !u!1001 &1973627173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5304,6 +7173,75 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1384234782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2083118830
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2518132312620273559, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_Name
+      value: Orange citrine Cluster C (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 107.44683
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 184.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 97.66499
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 314.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 178.11761
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 763.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7947029287245973831, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99ff1b09cd6cce74aa0ad4086ee62c6c, type: 3}
 --- !u!4 &2134847324 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5354697467888201838, guid: 905fc09d3f6d14743b4c45832949e143, type: 3}
@@ -5328,3 +7266,35 @@ SceneRoots:
   - {fileID: 749509102}
   - {fileID: 370000018}
   - {fileID: 1719552856}
+  - {fileID: 1337794469}
+  - {fileID: 1037152374}
+  - {fileID: 1632043707}
+  - {fileID: 806097593}
+  - {fileID: 812142303}
+  - {fileID: 724499601}
+  - {fileID: 582902943}
+  - {fileID: 273815253}
+  - {fileID: 1145823937}
+  - {fileID: 380888412}
+  - {fileID: 2083118830}
+  - {fileID: 1925501228}
+  - {fileID: 1590796148}
+  - {fileID: 1955847283}
+  - {fileID: 267395704}
+  - {fileID: 1482591486}
+  - {fileID: 122004912}
+  - {fileID: 1487169410}
+  - {fileID: 769606849}
+  - {fileID: 711898443}
+  - {fileID: 1480650689}
+  - {fileID: 885536960}
+  - {fileID: 274922133}
+  - {fileID: 1970333087}
+  - {fileID: 42851629}
+  - {fileID: 1396635159}
+  - {fileID: 1321559634}
+  - {fileID: 853060161}
+  - {fileID: 620667790}
+  - {fileID: 1377435634}
+  - {fileID: 226370547}
+  - {fileID: 1209779581}
