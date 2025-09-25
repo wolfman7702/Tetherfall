@@ -84,9 +84,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 4.5
   runSpeed: 7
-  jumpHeight: 1.6
+  jumpHeight: 3.5
   gravity: -4
-  fallMultiplier: 1
+  fallMultiplier: 3
   lowJumpMultiplier: 2.1
   terminalVel: -55
   pcMoveMultiplier: 1

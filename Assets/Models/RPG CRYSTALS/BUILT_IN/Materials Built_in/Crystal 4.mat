@@ -32,7 +32,7 @@ Material:
   m_InvalidKeywords:
   - _METALLICSPECGLOSSMAP
   - _OCCLUSIONMAP
-  m_LightmapFlags: 1
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -330,7 +330,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: -0.00014032297, g: -0.00000021831781, b: -4.122721e+32, a: -1.14787605e-35}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _EmissionColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 1.4980394, g: 1.4980394, b: 1.4980394, a: 1.3350785}
     - _EmissiveColorLDR: {r: 0.88031507, g: 0.88031507, b: 0.88031507, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
@@ -343,7 +343,6 @@ Material:
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!114 &4515608973260182847
 MonoBehaviour:
   m_ObjectHideFlags: 11
