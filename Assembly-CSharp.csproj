@@ -59,12 +59,14 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Obstacles\RotatingArmMotor.cs" />
     <Compile Include="Assets\Scripts\Level\PerlinCliffArc.cs" />
     <Compile Include="Assets\Scripts\Player\ResetBones.cs" />
     <Compile Include="Assets\Scripts\Player\FPSController.cs" />
     <Compile Include="Assets\Models\(LITE) Splash of Color - Unique Photogrammetry Plants\Script\BillboardScript.cs" />
     <Compile Include="Assets\Scripts\Bind Camera.cs" />
     <Compile Include="Assets\Scripts\Player\FPBodyTrim.cs" />
+    <Compile Include="Assets\Scripts\Player\ExternalForceReceiver.cs" />
     <Compile Include="Assets\Scripts\Net\NetworkPlayer.cs" />
     <Compile Include="Assets\Scripts\Player\FirstPersonLook.cs" />
     <Compile Include="Assets\Scripts\Player\AnimatorPumper.cs" />
@@ -80,6 +82,7 @@
     <Compile Include="Assets\Scripts\Net\MatchConfig.cs" />
     <Compile Include="Assets\Scripts\Gameplay\TetherLink.cs" />
     <Compile Include="Assets\Scripts\Net\VoiceManagerUGS.cs" />
+    <Compile Include="Assets\Scripts\Obstacles\Shove.cs" />
     <Compile Include="Assets\Scripts\Level\BakeNoiseCollider.cs" />
     <Compile Include="Assets\Scripts\Player\LocalPlayerFPBody.cs" />
     <Compile Include="Assets\Scripts\DriverTest.cs" />
@@ -1101,16 +1104,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Services.Authentication">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Authentication.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Services.Authentication.PlayerAccounts">

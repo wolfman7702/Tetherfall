@@ -1,55 +1,39 @@
 using UnityEngine;
 
-[RequireComponent(typeof(CharacterController))]
+[RequireComponent(typeof(FPSController))]
 public class PlayerAnimDriver : MonoBehaviour
 {
-    [SerializeField] Animator animator;            // drag Bear_Hero’s Animator
-    [SerializeField] float runMagnitudeSpeed = 5f; // your top run m/s maps to 1.0
-    [SerializeField] float damp = 0.12f;
+    [SerializeField] Animator animator;
 
-    CharacterController cc;
-    Vector3 lastPos;
+    // Match the params we’ve been using
+    [SerializeField] string pSpeed = "Speed";
+    [SerializeField] string pIsGrounded = "IsGrounded";
+    [SerializeField] string pJump = "Jump";
 
+    FPSController ctrl;
+
+    void Reset() { animator = GetComponentInChildren<Animator>(); }
     void Awake()
     {
-        cc = GetComponent<CharacterController>();
-        if (!animator) animator = GetComponentInChildren<Animator>(); // self-wire safety
-        lastPos = transform.position;
+        ctrl = GetComponent<FPSController>();
+        if (!animator) animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
     {
-        if (!animator) return;
-        float dt = Time.deltaTime; if (dt <= 0f) return;
+        if (!animator || !ctrl) return;
 
-        // world-space velocity from displacement
-        Vector3 worldVel = (transform.position - lastPos) / dt;
-        lastPos = transform.position;
+        // Drive locomotion blend (0..1 where walk≈0.5, run=1)
+        animator.SetFloat(pSpeed, ctrl.Speed01ForAnimator, 0.12f, Time.deltaTime);
 
-        Vector3 flat = new Vector3(worldVel.x, 0f, worldVel.z);
-        float speed = flat.magnitude;
-        float mag01 = runMagnitudeSpeed > 0 ? Mathf.Clamp01(speed / runMagnitudeSpeed) : 0f;
+        // Grounded flag (used by transition back to locomotion)
+        animator.SetBool(pIsGrounded, ctrl.IsGrounded);
 
-        Vector3 local = transform.InverseTransformDirection(flat);
-        float x = runMagnitudeSpeed > 0 ? Mathf.Clamp(local.x / runMagnitudeSpeed, -1f, 1f) : 0f;
-        float y = runMagnitudeSpeed > 0 ? Mathf.Clamp(local.z / runMagnitudeSpeed, -1f, 1f) : 0f;
-
-        SetFloatIfExists("InputMagnitude", mag01, damp, dt);
-        SetFloatIfExists("InputX", x, damp, dt);
-        SetFloatIfExists("InputY", y, damp, dt);
-        SetBoolIfExists("IsGrounded", cc ? cc.isGrounded : true);
-    }
-
-    void SetFloatIfExists(string n, float v, float d, float dt)
-    {
-        foreach (var p in animator.parameters)
-            if (p.name == n && p.type == AnimatorControllerParameterType.Float)
-            { animator.SetFloat(n, v, d, dt); return; }
-    }
-    void SetBoolIfExists(string n, bool v)
-    {
-        foreach (var p in animator.parameters)
-            if (p.name == n && p.type == AnimatorControllerParameterType.Bool)
-            { animator.SetBool(n, v); return; }
+        // Fire the single jump clip when we actually jumped this frame
+        if (ctrl.ConsumeJumpPressedThisFrame())
+        {
+            animator.ResetTrigger(pJump); // in case it’s lingering
+            animator.SetTrigger(pJump);
+        }
     }
 }
