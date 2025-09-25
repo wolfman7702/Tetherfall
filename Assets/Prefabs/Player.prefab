@@ -41,6 +41,7 @@ Transform:
   m_Children:
   - {fileID: 2322796358938043723}
   - {fileID: 6503482066570202078}
+  - {fileID: 4804802773435176054}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &5849631712926620823
@@ -81,19 +82,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a3ef63125a175f418d7e41a93d8352f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5.5
-  sprintMultiplier: 1.35
+  walkSpeed: 4.5
+  runSpeed: 7
   jumpHeight: 1.6
-  gravity: -36
-  terminalVelocity: -55
-  groundCheck: {fileID: 0}
-  groundRadius: 0.25
+  gravity: -4
+  fallMultiplier: 1
+  lowJumpMultiplier: 2.1
+  terminalVel: -55
+  pcMoveMultiplier: 1
+  groundCheck: {fileID: 4804802773435176054}
+  groundCheckRadius: 0.25
   groundMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 8
   coyoteTime: 0.12
   jumpBuffer: 0.12
-  pcMoveMultiplier: 1
 --- !u!114 &2402213811932471785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +262,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 587227914662952652}
+  m_Father: {fileID: 8322845501292545535}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4435112489858937275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4804802773435176054}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4804802773435176054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4435112489858937275}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.025, y: -1.304, z: 0.173}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 8322845501292545535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5034771336177046344

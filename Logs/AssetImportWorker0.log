@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.62f1 (4af31df58517) revision 4911901'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 65325 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 65461 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Project/Tetherfall
+D:/Projects/Climbing Game/Tetherfall
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58423
-Successfully changed project path to: D:/Project/Tetherfall
-D:/Project/Tetherfall
+56867
+Successfully changed project path to: D:/Projects/Climbing Game/Tetherfall
+D:/Projects/Climbing Game/Tetherfall
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,68 +49,70 @@ D:/Project/Tetherfall
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1028]  Target information:
+Player connection [21192]  Target information:
 
-Player connection [1028]  * "[IP] 10.0.0.192 [Port] 0 [Flags] 2 [Guid] 845583892 [EditorId] 845583892 [Version] 1048832 [Id] WindowsEditor(7,JinxPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21192]  * "[IP] 10.0.0.196 [Port] 0 [Flags] 2 [Guid] 2055031614 [EditorId] 2055031614 [Version] 1048832 [Id] WindowsEditor(7,JoshsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [1028] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [1028] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21192]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2055031614 [EditorId] 2055031614 [Version] 1048832 [Id] WindowsEditor(7,JoshsPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21192] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21192] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-Refreshing native plugins compatible for Editor in 8.78 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 1.49 ms.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 23.86 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 2.74 ms.
 Initialize engine version: 2022.3.62f1 (4af31df58517)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Project/Tetherfall/Assets
+[Subsystems] Discovering subsystems at path D:/Projects/Climbing Game/Tetherfall/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 Ti SUPER (ID=0x2705)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     16063 MB
-    Driver:   32.0.15.7652
+    VRAM:     12115 MB
+    Driver:   32.0.15.7683
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004171 seconds.
-- Loaded All Assemblies, in  0.196 seconds
+Registered in 0.006942 seconds.
+- Loaded All Assemblies, in  0.272 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.148 seconds
-Domain Reload Profiling: 344ms
-	BeginReloadAssembly (61ms)
+- Finished resetting the current domain, in  0.208 seconds
+Domain Reload Profiling: 478ms
+	BeginReloadAssembly (87ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (77ms)
-		LoadAssemblies (60ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (76ms)
-			TypeCache.Refresh (75ms)
-				TypeCache.ScanAssembly (66ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (88ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (148ms)
+	FinalizeReload (208ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (122ms)
+		SetupLoadedEditorAssemblies (171ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (84ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,57 +122,57 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.452 seconds
+- Loaded All Assemblies, in  0.808 seconds
 Native extension for WindowsStandalone target not found
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.443 seconds
-Domain Reload Profiling: 895ms
-	BeginReloadAssembly (81ms)
+- Finished resetting the current domain, in  0.709 seconds
+Domain Reload Profiling: 1503ms
+	BeginReloadAssembly (127ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (11ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (322ms)
-		LoadAssemblies (205ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (591ms)
+		LoadAssemblies (452ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (165ms)
-			TypeCache.Refresh (140ms)
-				TypeCache.ScanAssembly (127ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (444ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (709ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (353ms)
+		SetupLoadedEditorAssemblies (575ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (268ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 7.76 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 52.86 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Unloading 5732 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (1.3 MB). Loaded Objects now: 6204.
-Memory consumption went from 209.7 MB to 208.3 MB.
-Total: 3.693500 ms (FindLiveObjects: 0.339300 ms CreateObjectMapping: 0.151300 ms MarkObjects: 2.840900 ms  DeleteObjects: 0.361100 ms)
+Unloading 50 unused Assets / (1.3 MB). Loaded Objects now: 6206.
+Memory consumption went from 209.0 MB to 207.6 MB.
+Total: 10.963100 ms (FindLiveObjects: 1.010700 ms CreateObjectMapping: 1.064400 ms MarkObjects: 8.283800 ms  DeleteObjects: 0.602600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,533 +189,1420 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 17802.117362 seconds.
-  path: Assets/New Terrain 2.asset
-  artifactKey: Guid(b49079cd725ee3e45962bad17e1ff9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 2.asset using Guid(b49079cd725ee3e45962bad17e1ff9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-Tree prefab at index 0 is missing.
-Tree prefab at index 1 is missing.
-Tree prefab at index 2 is missing.
-Tree prefab at index 3 is missing.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '792fe6173aeff6bbcc12a49e6113cf1b') in 0.053676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.546 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.413 seconds
+Domain Reload Profiling: 1948ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1413ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (496ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 27.57 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Unloading 5666 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6209.
+Memory consumption went from 194.3 MB to 193.0 MB.
+Total: 7.598600 ms (FindLiveObjects: 1.104700 ms CreateObjectMapping: 0.656700 ms MarkObjects: 5.090000 ms  DeleteObjects: 0.745300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.592 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.367 seconds
+Domain Reload Profiling: 1948ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (376ms)
+		LoadAssemblies (420ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1368ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 29.86 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
+Unloading 5666 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6212.
+Memory consumption went from 193.6 MB to 192.3 MB.
+Total: 15.008200 ms (FindLiveObjects: 0.891100 ms CreateObjectMapping: 0.758800 ms MarkObjects: 12.700100 ms  DeleteObjects: 0.656400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.005346 seconds.
-  path: Assets/Models/Blue Olive Studio
-  artifactKey: Guid(3456c2a967d913a4cbaf89020ffecd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio using Guid(3456c2a967d913a4cbaf89020ffecd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '062b9e89ed8228874637db9927212ff4') in 0.000399 seconds
+  Time since last request: 30754.621180 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0711ee002e66181fe20ffe495276fc49') in 0.268764 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 263
 ========================================================================
 Received Import Request.
-  Time since last request: 0.650942 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set
-  artifactKey: Guid(632bc2457e6da104c997dc5c9c92d075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set using Guid(632bc2457e6da104c997dc5c9c92d075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'e3ceff47566dc7a01a58499ab695f713') in 0.000669 seconds
+  Time since last request: 2.374435 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0ee39d59e6b499e0aba467d229b757f0') in 0.046999 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 265
 ========================================================================
 Received Import Request.
-  Time since last request: 1.856215 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs
-  artifactKey: Guid(40e9149328d327244827cc7637c870cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs using Guid(40e9149328d327244827cc7637c870cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '1ab918b492baa63c65ea45bb58d9c69c') in 0.000535 seconds
+  Time since last request: 8.604360 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7dc0f468b2cc5f1ba61f200a6babac15') in 0.034017 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 265
 ========================================================================
 Received Import Request.
-  Time since last request: 1.108801 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K
-  artifactKey: Guid(0e537e4125ef49a43872e67f30a55c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K using Guid(0e537e4125ef49a43872e67f30a55c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'fb0e4bf42bc6031642976b71330d6ac1') in 0.000514 seconds
+  Time since last request: 7.061773 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1a7f01c670f07744410d92b1e9536790') in 0.043445 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 265
 ========================================================================
 Received Import Request.
-  Time since last request: 0.061395 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Stone 1 2k.prefab
-  artifactKey: Guid(e9e4fd670fb14ba4a97ff0085a819c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Stone 1 2k.prefab using Guid(e9e4fd670fb14ba4a97ff0085a819c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '2845bbca1588b80290f9f448428e7219') in 0.062679 seconds
+  Time since last request: 5.189557 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '313105a043bad86807b4d3f8a4e60ba4') in 0.038220 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
+Number of asset objects unloaded after import = 265
 ========================================================================
 Received Import Request.
-  Time since last request: 2.071715 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k
-  artifactKey: Guid(5de1c8a6eee12e749af07aa5d0b99cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k using Guid(5de1c8a6eee12e749af07aa5d0b99cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '94d7da53a36185ed38c547ca0ec79a0d') in 0.000372 seconds
+  Time since last request: 1.964660 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2c2c0d41d1a99b459a283539097b04ca') in 0.035893 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 265
 ========================================================================
 Received Import Request.
-  Time since last request: 0.063315 seconds.
+  Time since last request: 4.789617 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9c616db2de14795baf0851352f79d7b') in 0.035066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 265
+========================================================================
+Received Import Request.
+  Time since last request: 23.580907 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0935e493f9cf2aba05beac8a388a954') in 0.034422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 265
+========================================================================
+Received Import Request.
+  Time since last request: 0.366995 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f13702b7acc4e49b558ef914ecef5139') in 0.034975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 265
+========================================================================
+Received Import Request.
+  Time since last request: 7.618711 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8fa309744656f75916ecec590c312ad') in 0.037867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 265
+========================================================================
+Received Import Request.
+  Time since last request: 1.164377 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3e70a06758551916714f51db60f65c46') in 0.082304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 265
+========================================================================
+Received Import Request.
+  Time since last request: 28.017259 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dd6cdf2aa92cb9912f3229490aa8dc9e') in 0.042716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.539 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.414 seconds
+Domain Reload Profiling: 1942ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (313ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 28.95 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6224.
+Memory consumption went from 199.3 MB to 198.0 MB.
+Total: 8.722900 ms (FindLiveObjects: 1.304300 ms CreateObjectMapping: 0.660100 ms MarkObjects: 6.071300 ms  DeleteObjects: 0.685900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.712039 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd3c337718839939e5bb683fde456efcc') in 0.178660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Import Request.
+  Time since last request: 2.173743 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b34f7156ec18ee1a2be4f4a19b45b3dd') in 0.037525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Import Request.
+  Time since last request: 5.203976 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0275c732cbca6d60fb118600c7f9c1d') in 0.039449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.562 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.425 seconds
+Domain Reload Profiling: 1976ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1425ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 27.56 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6227.
+Memory consumption went from 199.3 MB to 198.0 MB.
+Total: 7.619400 ms (FindLiveObjects: 1.119200 ms CreateObjectMapping: 0.650000 ms MarkObjects: 5.216500 ms  DeleteObjects: 0.632500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.332408 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ba5f06b230d9408b302078607315b00e') in 0.102887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.564 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.470 seconds
+Domain Reload Profiling: 2024ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (349ms)
+		LoadAssemblies (403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1471ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (530ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 23.67 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6230.
+Memory consumption went from 199.2 MB to 197.9 MB.
+Total: 8.685300 ms (FindLiveObjects: 1.532800 ms CreateObjectMapping: 0.658300 ms MarkObjects: 5.502100 ms  DeleteObjects: 0.841200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.594047 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44a1d4a1b09ec2615dd9e492e14ac884') in 0.169396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.536 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.409 seconds
+Domain Reload Profiling: 1938ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1410ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (507ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (320ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 28.32 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 5665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6233.
+Memory consumption went from 199.3 MB to 198.0 MB.
+Total: 8.878800 ms (FindLiveObjects: 0.952100 ms CreateObjectMapping: 0.616800 ms MarkObjects: 6.121500 ms  DeleteObjects: 1.186800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 373.496256 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b5ba2599de9f983679eae0cd62163f81') in 0.102704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Import Request.
+  Time since last request: 13.105245 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '579492d0825fc97248b0bec3f5d1c21a') in 0.042328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Import Request.
+  Time since last request: 0.760593 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cf37d12eca36867cac3504de3f70e5e1') in 0.035451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.545 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.426 seconds
+Domain Reload Profiling: 1963ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (386ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1427ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (504ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 22.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 5665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6236.
+Memory consumption went from 199.4 MB to 198.0 MB.
+Total: 9.217800 ms (FindLiveObjects: 1.090200 ms CreateObjectMapping: 0.796700 ms MarkObjects: 6.103000 ms  DeleteObjects: 1.226500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.863458 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b626317e2347d9146bec94f958b01d6') in 0.182944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Import Request.
+  Time since last request: 10.851061 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '125a5144601c070ea64a551a069512a2') in 0.255522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.531 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.428 seconds
+Domain Reload Profiling: 1951ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1428ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 24.68 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6239.
+Memory consumption went from 199.4 MB to 198.1 MB.
+Total: 8.158700 ms (FindLiveObjects: 0.960500 ms CreateObjectMapping: 0.592000 ms MarkObjects: 6.001600 ms  DeleteObjects: 0.603100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.379942 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02bb257533210c0ae2795c4a871ded07') in 0.188801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.553 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.438 seconds
+Domain Reload Profiling: 1979ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (391ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (515ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 23.44 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 5665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6242.
+Memory consumption went from 199.4 MB to 198.1 MB.
+Total: 7.556400 ms (FindLiveObjects: 0.886500 ms CreateObjectMapping: 0.824000 ms MarkObjects: 5.216100 ms  DeleteObjects: 0.628400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.850910 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(ac9054e81e93453408b682fdd7c57411) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3351984ec904b970078170493ad2a784') in 0.160576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 269
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.551 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.389 seconds
+Domain Reload Profiling: 1929ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1389ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 28.12 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 5665 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 6245.
+Memory consumption went from 199.3 MB to 198.0 MB.
+Total: 8.022900 ms (FindLiveObjects: 1.146300 ms CreateObjectMapping: 0.670800 ms MarkObjects: 5.508300 ms  DeleteObjects: 0.696100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.452940 seconds.
   path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Cluster A.prefab
   artifactKey: Guid(d8e9643743585e84096cee7c959edb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Cluster A.prefab using Guid(d8e9643743585e84096cee7c959edb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '3bebb4eef782d6473192c0b08897b80b') in 0.094847 seconds
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Cluster A.prefab using Guid(d8e9643743585e84096cee7c959edb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '393d44cb134caeceb3daf5f31d41e092') in 0.083776 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 19
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
+  Time since last request: 0.004236 seconds.
   path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Cluster C.prefab
   artifactKey: Guid(f37e613772440834bba0d8f97985c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Cluster C.prefab using Guid(f37e613772440834bba0d8f97985c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '8cc2e0c90dab23e771fc8dfbe98f3557') in 0.042247 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal H.prefab
-  artifactKey: Guid(b403ea826da50d147a7ec11ff2a960b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal H.prefab using Guid(b403ea826da50d147a7ec11ff2a960b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '2798c756c71de854edc330ed645e7800') in 0.013965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal A.prefab
-  artifactKey: Guid(abbc8917fd0de7a4daa58c95b06e04e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal A.prefab using Guid(abbc8917fd0de7a4daa58c95b06e04e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '337a74d7eafd58f5a564058625782ee8') in 0.019584 seconds
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Cluster C.prefab using Guid(f37e613772440834bba0d8f97985c110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8bbe45aca00086b5b53693989f87db0') in 0.022539 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 19
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Geode B.prefab
-  artifactKey: Guid(48238df4a39405943a4844a7d246fd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Geode B.prefab using Guid(48238df4a39405943a4844a7d246fd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'e0a64df22770ecf34f51166213a69f7a') in 0.079775 seconds
+  path: Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal Cluster-C.fbx
+  artifactKey: Guid(cec3ec5da2e06284da44bda5342db393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal Cluster-C.fbx using Guid(cec3ec5da2e06284da44bda5342db393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3bc370b9b003b7879c5f5bd8f7eb3793') in 0.188665 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal C.prefab
-  artifactKey: Guid(6c717d39a137acf40bcab3ddc91753e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal C.prefab using Guid(6c717d39a137acf40bcab3ddc91753e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'f442e1cdef6d3be65bfaeb57fbf7ecae') in 0.012624 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal I.prefab
-  artifactKey: Guid(8091e35463aa55c469df23309b07c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal I.prefab using Guid(8091e35463aa55c469df23309b07c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'b0ebd9aa57a221042a4c07a1d28300f5') in 0.012074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal G.prefab
-  artifactKey: Guid(c86c07063029367429e5416c8d071728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal G.prefab using Guid(c86c07063029367429e5416c8d071728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'b274990aaa1f088fb74609d0cf2f63e9') in 0.012647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 54.385142 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Cluster B.prefab
-  artifactKey: Guid(c1d68e9b5e0243946b503629e71cad37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Cluster B.prefab using Guid(c1d68e9b5e0243946b503629e71cad37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '01ea54f88f1551671f0fb38ea4ea72eb') in 0.085119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Crystal G.prefab
-  artifactKey: Guid(69df8fbd8850f0d4d8582be0e9625d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Crystal G.prefab using Guid(69df8fbd8850f0d4d8582be0e9625d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'b9f2fd2c9142ce4b2a287f9877ebfab1') in 0.013034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Crystal H.prefab
-  artifactKey: Guid(81078ad06b179124c814e72fe17e3c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Crystal H.prefab using Guid(81078ad06b179124c814e72fe17e3c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '1940342dba5ac4f1fb9235306c0dd55d') in 0.010820 seconds
+  path: Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal-I.fbx
+  artifactKey: Guid(9d0bba6503064864c8432ba6f9181390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal-I.fbx using Guid(9d0bba6503064864c8432ba6f9181390) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '95a902b159eecfe203995ba92f823449') in 0.017261 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Crystal B.prefab
-  artifactKey: Guid(d4998711fc90bf94296705b636289d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Crystal B.prefab using Guid(d4998711fc90bf94296705b636289d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '1e98520dc743a733bc75914da003734a') in 0.010667 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Amethyst 1k/Amethyst Geode A 1k.prefab
+  artifactKey: Guid(0e44da0ca2a28b04facaf2b581dd1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Amethyst 1k/Amethyst Geode A 1k.prefab using Guid(0e44da0ca2a28b04facaf2b581dd1a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6527dc878df93604e884714937c52ed3') in 0.071418 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Crystal I.prefab
-  artifactKey: Guid(b99556ed34ed3b44a970075a04505ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Crystal I.prefab using Guid(b99556ed34ed3b44a970075a04505ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '6a061593861bbd2cb9df862de0195eed') in 0.011711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 24
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Crystal E.prefab
-  artifactKey: Guid(edb431e7d96e75b4bb76ebcd26180ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Crystal E.prefab using Guid(edb431e7d96e75b4bb76ebcd26180ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'ac10f4a68901dc50b37009336f63ab20') in 0.009843 seconds
+  path: Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Geode B.fbx
+  artifactKey: Guid(f191eea19f8eec641a71b15c30710d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Geode B.fbx using Guid(f191eea19f8eec641a71b15c30710d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a17b5e3d0e9e5b4ac48aeba3adcb9612') in 0.040975 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Geode A.prefab
-  artifactKey: Guid(d2a4b3f4a84e59f468863a33313eaf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Orange citrine 2k/Orange citrine Geode A.prefab using Guid(d2a4b3f4a84e59f468863a33313eaf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'c487ef3cd443e4d2a2259a367e1546b5') in 0.087921 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal-H.fbx
+  artifactKey: Guid(a19ee34d000b64642a6f105424f812d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal-H.fbx using Guid(a19ee34d000b64642a6f105424f812d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '069e99d2377515c8f7aaace80de66ba3') in 0.020814 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 993.377029 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k
-  artifactKey: Guid(6f26178740a5d834fb4d99d44cbb66cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k using Guid(6f26178740a5d834fb4d99d44cbb66cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'f3aeb2cfdbb97c785a7168deafe2fb42') in 0.000665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.035080 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Cluster A.prefab
-  artifactKey: Guid(032c0a89886c1934d9a9c6410938f253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Cluster A.prefab using Guid(032c0a89886c1934d9a9c6410938f253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'efd859347474400c0a81bb9d9532d08d') in 0.016190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Crystal G.prefab
-  artifactKey: Guid(bca4446b0a83644408439ee23794cee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Crystal G.prefab using Guid(bca4446b0a83644408439ee23794cee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'a7bbc5e430c471579737e031aff665ca') in 0.014065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Geode B.prefab
-  artifactKey: Guid(1a42c8a053df943429e7e5db36bd692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Geode B.prefab using Guid(1a42c8a053df943429e7e5db36bd692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'cfb5207511de71315c363d7df56ae67a') in 0.014380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Cluster C.prefab
-  artifactKey: Guid(8be00ebe230b31a48a0bb2cfa938a618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Cluster C.prefab using Guid(8be00ebe230b31a48a0bb2cfa938a618) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '17c27feb6618ceb913eb6393b0fe1e18') in 0.011263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Rock Cluster A.prefab
-  artifactKey: Guid(e669d6088b6ddbc4d8c67f19c2d1d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Rock Cluster A.prefab using Guid(e669d6088b6ddbc4d8c67f19c2d1d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'ad298acd249d49a5fa9dd60006009068') in 0.014811 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Crystal B.prefab
-  artifactKey: Guid(ab46f2827ae33654da03feab52b2b474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Crystal B.prefab using Guid(ab46f2827ae33654da03feab52b2b474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'b2d23a7ba1f0e3fea22ce2641f7403a4') in 0.012171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Ruby Rock Cluster B.prefab
-  artifactKey: Guid(e4a1ba5b12dc43c418c892ca9b0e7550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Ruby Rock Cluster B.prefab using Guid(e4a1ba5b12dc43c418c892ca9b0e7550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '25200f438b3ae987c1bf56e6d0b200e7') in 0.011749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Geode A.prefab
-  artifactKey: Guid(db03ea6ab6b1e3240820802ac93fc7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Ruby 2k/Ruby Geode A.prefab using Guid(db03ea6ab6b1e3240820802ac93fc7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '463ec801bf59963f69b14fb559289df2') in 0.012177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 2.777407 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Cluster B.prefab
-  artifactKey: Guid(883f700d0f1b77d4aa0df3f6906c13eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Cluster B.prefab using Guid(883f700d0f1b77d4aa0df3f6906c13eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '31332eb7a1e383480b12523a8d75ed98') in 0.014315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Rock Cluster A.prefab
-  artifactKey: Guid(47b5855738de11042966711387113c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Rock Cluster A.prefab using Guid(47b5855738de11042966711387113c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '7047534f2c15810ea49503266d3ffd5d') in 0.013998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal G.prefab
-  artifactKey: Guid(955427fbe7c66b04e872fc3f057f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal G.prefab using Guid(955427fbe7c66b04e872fc3f057f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'b81d54604050ca8a60a99b0a5d57c330') in 0.011687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal D.prefab
-  artifactKey: Guid(df78c4dbead6f6242a9f50270b17bbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal D.prefab using Guid(df78c4dbead6f6242a9f50270b17bbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'fdb24d8cfcca31a2f561f717412f4d43') in 0.013308 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal B.prefab
-  artifactKey: Guid(0d18c3c83d69555459ce03ed66f6642e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal B.prefab using Guid(0d18c3c83d69555459ce03ed66f6642e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'b14834c0e162fb48d4858bcb6af1552e') in 0.015370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 19
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Geode B.prefab
-  artifactKey: Guid(a88dcb51cfdabc144a54965b90ae6685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Geode B.prefab using Guid(a88dcb51cfdabc144a54965b90ae6685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'f62b1186e4b9f4ca5b3979c13efeb5ab') in 0.016431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 1.306881 seconds.
+  Time since last request: 0.000023 seconds.
   path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal B.prefab
   artifactKey: Guid(dd68308f60e92c3498a0462ea806521f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal B.prefab using Guid(dd68308f60e92c3498a0462ea806521f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '253d42d6f0ee4ec4e7406382e1de26c8') in 0.017430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal I.prefab
-  artifactKey: Guid(697de526dc5d24e418a0eb2ea4775a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal I.prefab using Guid(697de526dc5d24e418a0eb2ea4775a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '56cce9f56e7e70b7b06dd90fdc1a5c0b') in 0.031324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal Cluster C.prefab
-  artifactKey: Guid(b9cc1db268235ae499146aa7b214fd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal Cluster C.prefab using Guid(b9cc1db268235ae499146aa7b214fd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '403faf2e5f570c6c7ad520f3ce54892a') in 0.021014 seconds
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal B.prefab using Guid(dd68308f60e92c3498a0462ea806521f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '30f5c8c2d49c942d999dbc0b4e1e2fb0') in 0.014127 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal F.prefab
-  artifactKey: Guid(4e810601f1a1b044eab5930396fb7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal F.prefab using Guid(4e810601f1a1b044eab5930396fb7625) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '4d9c4958fa3abf80dd04403398be67c3') in 0.023138 seconds
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Amethyst 1k/Amethyst Geode B 1k.prefab
+  artifactKey: Guid(2627e3663565e3f40ab4f8ebb5cb2b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Amethyst 1k/Amethyst Geode B 1k.prefab using Guid(2627e3663565e3f40ab4f8ebb5cb2b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1ab99881dd85695dab11f172f4983c49') in 0.040240 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 2.640977 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Saphire 2k/Saphire Cluster B.prefab
-  artifactKey: Guid(4956bb758e5c95c43ab44d7380bf6bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Saphire 2k/Saphire Cluster B.prefab using Guid(4956bb758e5c95c43ab44d7380bf6bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '15c9f93ca53791e81e55e5dd80702b6a') in 0.012389 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Saphire 2k/Saphire Geode A.prefab
-  artifactKey: Guid(803a222734ad2a04eb3763b48128db95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Saphire 2k/Saphire Geode A.prefab using Guid(803a222734ad2a04eb3763b48128db95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '510a0b4b1d884365b4255da021f26555') in 0.014674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Saphire 2k/Saphire Crystal D.prefab
-  artifactKey: Guid(71faee050e763a1428278688894801cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Saphire 2k/Saphire Crystal D.prefab using Guid(71faee050e763a1428278688894801cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'bf0d06ec1cd8b104f3c6adc3c89307a1') in 0.013252 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Saphire 2k/Saphire Crystal G.prefab
-  artifactKey: Guid(cff0640fd12372b4c9281bdc74f1f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Saphire 2k/Saphire Crystal G.prefab using Guid(cff0640fd12372b4c9281bdc74f1f395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '837475f5c984684462ebe6b685d8ff2e') in 0.013090 seconds
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal D.prefab
+  artifactKey: Guid(f59edf21e1bba874cbb142beebebe296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal D.prefab using Guid(f59edf21e1bba874cbb142beebebe296) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b661d011a905cb68eae6d95b33de3fe1') in 0.019541 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 2.292948 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Stone 2.prefab
-  artifactKey: Guid(0b14a417cadcf4a4eab1a78b0ad533fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Stone 2.prefab using Guid(0b14a417cadcf4a4eab1a78b0ad533fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'f3850b33e56dcce522bfa9837ae97332') in 0.012584 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/URP assets/Demo URP/Particles/Crystal effects 1 URP.prefab
+  artifactKey: Guid(2e98b6fc2114f3a4a9d70e2ba8d28899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/URP assets/Demo URP/Particles/Crystal effects 1 URP.prefab using Guid(2e98b6fc2114f3a4a9d70e2ba8d28899) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '67a31dfaaa4af49c537a148e05b22de2') in 0.016497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal-E.fbx
+  artifactKey: Guid(aa989d2a141a44142adf29a672ff96c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal-E.fbx using Guid(aa989d2a141a44142adf29a672ff96c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a01e1543aec5af09ad95793c136d1881') in 0.019675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/_Demo Scene/Particles/Amethyst effects.prefab
+  artifactKey: Guid(3b1458b7c1c49d7439e00fa044fd7626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/_Demo Scene/Particles/Amethyst effects.prefab using Guid(3b1458b7c1c49d7439e00fa044fd7626) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82eff6b0661fb281548cb063454ceb7b') in 4.127235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal-G.fbx
+  artifactKey: Guid(1e377a025c9122946a97d9af727b6ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal-G.fbx using Guid(1e377a025c9122946a97d9af727b6ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d2f6df63052beb3e200a161cf3472a8') in 0.023009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal D.prefab
+  artifactKey: Guid(2f66991e0bbada54faaf4e5d4c45e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal D.prefab using Guid(2f66991e0bbada54faaf4e5d4c45e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9129e5c3a562e087a67087b5e9910505') in 0.018352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal F.prefab
+  artifactKey: Guid(dd2bbbf40a45a1247a8c683831c260aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal F.prefab using Guid(dd2bbbf40a45a1247a8c683831c260aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b629c5724e686ccbe36ddf912632e5d4') in 0.020436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Geode A.prefab
+  artifactKey: Guid(8444f8f24224b5c4dbda506037531393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Geode A.prefab using Guid(8444f8f24224b5c4dbda506037531393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6ecba08672a0b2c4061727a87f0dc58d') in 0.320918 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 20
 ========================================================================
 Received Import Request.
-  Time since last request: 1.519373 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Orange citrine 1k/Orange citrine Cluster B 1k.prefab
-  artifactKey: Guid(6946032f2eb385d4f821d14cba79185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Orange citrine 1k/Orange citrine Cluster B 1k.prefab using Guid(6946032f2eb385d4f821d14cba79185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '5a3611469fb4aaa81e0aeefca909b0f8') in 0.012715 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal C.prefab
+  artifactKey: Guid(6c717d39a137acf40bcab3ddc91753e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Amethyst 2k/Amethyst Crystal C.prefab using Guid(6c717d39a137acf40bcab3ddc91753e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e841c6a656a9714ff1e5c73d89c35a5a') in 0.018733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Amethyst 1k/Amethyst Rock Cluster A 1K.prefab
+  artifactKey: Guid(a43fb8086767dc249bc39e105ccb64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Amethyst 1k/Amethyst Rock Cluster A 1K.prefab using Guid(a43fb8086767dc249bc39e105ccb64ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6dc4091d55b92cbc2a6046d45d3c9633') in 0.023867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal Cluster-B.fbx
+  artifactKey: Guid(f77e0a12f64737d4c8e595f99a98753b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Crystal Cluster-B.fbx using Guid(f77e0a12f64737d4c8e595f99a98753b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '330fc192fc444c9af5cdbcec92f9c29c') in 0.036175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Geode A.fbx
+  artifactKey: Guid(d77ca9c4999426f488b1d895c3ef2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Meshes/Amethyst Geode A.fbx using Guid(d77ca9c4999426f488b1d895c3ef2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2a3dd89a0d3bfdd73862c2315c542407') in 0.353543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 4.017676 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Crystal 1k/Crystal Geode A 1k.prefab
+  artifactKey: Guid(032b5d4e36c6ef34eb891ef8a9f2572b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Crystal 1k/Crystal Geode A 1k.prefab using Guid(032b5d4e36c6ef34eb891ef8a9f2572b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd670dac7ceb1bae18461ced37c62a22b') in 0.040392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal H.prefab
+  artifactKey: Guid(407b4f67923f38c46a0cd7b7e11431a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal H.prefab using Guid(407b4f67923f38c46a0cd7b7e11431a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6aee4c5d4cf6e1b235c7c10a61666970') in 0.015118 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Orange citrine 1k/Orange Citrine Rock Cluster A 1K.prefab
-  artifactKey: Guid(ec000aa33484a5f44bdd3f397479deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Orange citrine 1k/Orange Citrine Rock Cluster A 1K.prefab using Guid(ec000aa33484a5f44bdd3f397479deb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'e9f373d4b54acc3becaf5e2d159def80') in 0.030489 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal Rock Cluster A.prefab
+  artifactKey: Guid(ad9e395f607b7274189c25215e7a5a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal Rock Cluster A.prefab using Guid(ad9e395f607b7274189c25215e7a5a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b2dfe781419d44899a5b812aff0b475') in 0.023678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Crystal 1k/Crystal Rock Cluster B 1K.prefab
+  artifactKey: Guid(44cdef035a1436f41bd23caac9aa371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Crystal 1k/Crystal Rock Cluster B 1K.prefab using Guid(44cdef035a1436f41bd23caac9aa371b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bfc044d6d189f01d7f546c52d96cf7cc') in 0.021382 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 36
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Orange citrine 1k/Orange citrine Crystal C 1k.prefab
-  artifactKey: Guid(afec95f4e6814c7449fe3a3b3a5de68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Orange citrine 1k/Orange citrine Crystal C 1k.prefab using Guid(afec95f4e6814c7449fe3a3b3a5de68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '99abb2261a0789430c5d9bfabbfd0d3f') in 0.032354 seconds
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_1.prefab
+  artifactKey: Guid(0f5dbb443ab8f6b499c814592378cf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_1.prefab using Guid(0f5dbb443ab8f6b499c814592378cf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e591130dc02d28ac52baf9f5fc12d852') in 0.169148 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 2.442917 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Saphire 1k/Saphire Cluster B 1k.prefab
-  artifactKey: Guid(2aa153e04f8559f4e861a11dbacaa114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Saphire 1k/Saphire Cluster B 1k.prefab using Guid(2aa153e04f8559f4e861a11dbacaa114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: '0f42ffdf79e8adcc355ea5e32e6f7e1e') in 0.011242 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_6.prefab
+  artifactKey: Guid(d3a74441f99da46448085fd4c6503f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_6.prefab using Guid(d3a74441f99da46448085fd4c6503f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '17481b71de5a8bd0adb99835f5dc57db') in 0.058793 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Saphire 1k/Saphire Crystal D 1k.prefab
-  artifactKey: Guid(0b9c7dfac56baa240aa29f6b4e38877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Saphire 1k/Saphire Crystal D 1k.prefab using Guid(0b9c7dfac56baa240aa29f6b4e38877b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'e96ed9734812316a62b1fcfdf5cb5b6b') in 0.010305 seconds
+  Time since last request: 0.000072 seconds.
+  path: Assets/Models/RPG CRYSTALS/BUILT_IN/Prefab Built_in/Crystal_6.prefab
+  artifactKey: Guid(27a3841ce220ca1478d6e6504ba8c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/BUILT_IN/Prefab Built_in/Crystal_6.prefab using Guid(27a3841ce220ca1478d6e6504ba8c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '67703b3b3114f995f509f33eae0f9529') in 0.098158 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 39
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Saphire 1k/Saphire Geode B 1k.prefab
-  artifactKey: Guid(2b72917d29743ec4ea90099e120aa456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Saphire 1k/Saphire Geode B 1k.prefab using Guid(2b72917d29743ec4ea90099e120aa456) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'c5f8ca4de2885cdd49f176612595aaca') in 0.010485 seconds
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/RPG CRYSTALS/BUILT_IN/Prefab Built_in/Crystal_9.prefab
+  artifactKey: Guid(f9ba0747df93a5b438c93b15a636d950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/BUILT_IN/Prefab Built_in/Crystal_9.prefab using Guid(f9ba0747df93a5b438c93b15a636d950) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7ff6fe7d79edf59ced6928abd44d655') in 0.106453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_9.prefab
+  artifactKey: Guid(e7b83246b12e0244da86d6669f15ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_9.prefab using Guid(e7b83246b12e0244da86d6669f15ae76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ed49ff3ad6e878639c9bab1baa94f062') in 0.056268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal Rock Cluster B.prefab
+  artifactKey: Guid(e5b66ce3f0ca7e445a1470d7fa7df484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Crystal 2k/Crystal Rock Cluster B.prefab using Guid(e5b66ce3f0ca7e445a1470d7fa7df484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e34232060c216723bb6b884fa8ad94d9') in 0.027891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_4.prefab
+  artifactKey: Guid(1e1c2fe8391b3774b94689a702cdcaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_4.prefab using Guid(1e1c2fe8391b3774b94689a702cdcaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e17aeb71b5079ebd7b5137be5ae186e6') in 0.043253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.171892 seconds.
+  path: Assets/Models/RPG CRYSTALS/BUILT_IN/Prefab Built_in/Crystal_11.prefab
+  artifactKey: Guid(8ce980bdd55cb60499dcaa0bd3f2122a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/BUILT_IN/Prefab Built_in/Crystal_11.prefab using Guid(8ce980bdd55cb60499dcaa0bd3f2122a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '266f3eda280f04301055be4d5e15ba04') in 0.096453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_14.prefab
+  artifactKey: Guid(0401a643c8eac424ab7a23adfbf810df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_14.prefab using Guid(0401a643c8eac424ab7a23adfbf810df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '884590d264aa81f031b0558ce3e5f659') in 0.053722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.004099 seconds.
+  path: Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_15.prefab
+  artifactKey: Guid(b9557c4e9c605474b9f1dfb58fea4721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_15.prefab using Guid(b9557c4e9c605474b9f1dfb58fea4721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '320b87a4816f2278d81bdab15b612a85') in 0.051501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/RPG CRYSTALS/BUILT_IN/Prefab Built_in/Crystal_16.prefab
+  artifactKey: Guid(4c8cb76deb10e0b44a2ffa0a48f838f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/BUILT_IN/Prefab Built_in/Crystal_16.prefab using Guid(4c8cb76deb10e0b44a2ffa0a48f838f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b045326df1d40e99ed00f1eaac1c4150') in 0.088714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_19.prefab
+  artifactKey: Guid(c305aee7e00492540a65fb68044b8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RPG CRYSTALS/URP/Prefab URP/Crystal_19.prefab using Guid(c305aee7e00492540a65fb68044b8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c6c99106a4fea4f2027ddf965af2143c') in 0.049659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 4.184902 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Cluster B.prefab
+  artifactKey: Guid(883f700d0f1b77d4aa0df3f6906c13eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Cluster B.prefab using Guid(883f700d0f1b77d4aa0df3f6906c13eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '70f712f1390fa783bf90f737093b2a48') in 0.038100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.007968 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal C.prefab
+  artifactKey: Guid(5074f9693c0c30b45bec1e64d4530a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal C.prefab using Guid(5074f9693c0c30b45bec1e64d4530a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '042ca9fb60e8e48e47eeb8e22e38d4a0') in 0.013211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.008140 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal E.prefab
+  artifactKey: Guid(a6aa58d394e4ac94b8452523936e4bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal E.prefab using Guid(a6aa58d394e4ac94b8452523936e4bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd258ad3ac522f8ae45cfb408e627d27') in 0.014161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.006259 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal G.prefab
+  artifactKey: Guid(955427fbe7c66b04e872fc3f057f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal G.prefab using Guid(955427fbe7c66b04e872fc3f057f4577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '715bb341325df92643ecd1b6849f1285') in 0.015421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.003514 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal I.prefab
+  artifactKey: Guid(723412b857f1c3e47b60911d8620e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Crystal I.prefab using Guid(723412b857f1c3e47b60911d8620e70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32cbee2d5e8482ab1308a5300d156189') in 0.013796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.005055 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Geode A.prefab
+  artifactKey: Guid(dcca6f84be663894db99ce93d6b9c220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Geode A.prefab using Guid(dcca6f84be663894db99ce93d6b9c220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aa4bb65880af33427d60a49037027574') in 0.067205 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Saphire 1k/Saphire Crystal I 1k.prefab
-  artifactKey: Guid(07abb61435c48874f9e4fd20947cdddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Saphire 1k/Saphire Crystal I 1k.prefab using Guid(07abb61435c48874f9e4fd20947cdddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
- -> (artifact id: 'e76df8eda910f4ff9a2bab1a931c6c51') in 0.008707 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Rock Cluster A.prefab
+  artifactKey: Guid(47b5855738de11042966711387113c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 2K/Emerald 2k/Emerald Rock Cluster A.prefab using Guid(47b5855738de11042966711387113c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8ddd04a166ffa0f483a3458a516b6d4') in 0.023050 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Character/Hero/Animations/Jumping.fbx
+  artifactKey: Guid(ae9b6b654f4eb6d44908c97cb367c52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Hero/Animations/Jumping.fbx using Guid(ae9b6b654f4eb6d44908c97cb367c52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f30c0de1891caf2dbe8b4c0d09404cc') in 0.004139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Emerald 1k/Emerald Rock Cluster A 1K.prefab
+  artifactKey: Guid(c83f1e972430b6f40ae7546f3976013c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Blue Olive Studio/Crystals set/Prefabs/Prefabs 1K/Emerald 1k/Emerald Rock Cluster A 1K.prefab using Guid(c83f1e972430b6f40ae7546f3976013c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '36b9063f38ccfbefcbcce16b58ff0895') in 0.041701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
